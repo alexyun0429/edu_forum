@@ -47,4 +47,3 @@ To install and run the Edu Forum website locally, follow these steps:
 
 4. Start the local development server or configure a web server to serve the application.
 
->>>>>>> 38d9cee0173201f9f82dd6124e7a1e21820defab
