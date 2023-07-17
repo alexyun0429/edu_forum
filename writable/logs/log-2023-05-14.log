@@ -1,0 +1,424 @@
+CRITICAL - 2023-05-14 15:31:00 --> Call to undefined method App\Models\VoteModel::getLikeForThread
+in SYSTEMPATH/Model.php on line 842.
+ 1 APPPATH/Controllers/Thread.php(187): CodeIgniter\Model->__call()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Thread->like()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-14 15:33:53 --> Call to undefined method App\Models\VoteModel::countVotesForThread
+in SYSTEMPATH/Model.php on line 842.
+ 1 APPPATH/Controllers/Thread.php(33): CodeIgniter\Model->__call()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Thread->show()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-14 15:34:52 --> mysqli_sql_exception: Unknown column 'user_id' in 'where clause' in /var/www/htdocs/assignment/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/htdocs/assignment/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/htdocs/assignment/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/htdocs/assignment/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/htdocs/assignment/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/assignment/system/Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/htdocs/assignment/system/BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 /var/www/htdocs/assignment/app/Models/VoteModel.php(22): CodeIgniter\BaseModel->first()
+#7 /var/www/htdocs/assignment/app/Controllers/Thread.php(187): App\Models\VoteModel->getLikeForThread()
+#8 /var/www/htdocs/assignment/system/CodeIgniter.php(934): App\Controllers\Thread->like()
+#9 /var/www/htdocs/assignment/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#10 /var/www/htdocs/assignment/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#11 /var/www/htdocs/assignment/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-14 15:34:52 --> Unknown column 'user_id' in 'where clause'
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 4 APPPATH/Models/VoteModel.php(22): CodeIgniter\BaseModel->first()
+ 5 APPPATH/Controllers/Thread.php(187): App\Models\VoteModel->getLikeForThread()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Thread->like()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-14 15:35:13 --> mysqli_sql_exception: Unknown column 'user_id' in 'where clause' in /var/www/htdocs/assignment/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/htdocs/assignment/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/htdocs/assignment/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/htdocs/assignment/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/htdocs/assignment/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/assignment/system/Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/htdocs/assignment/system/BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 /var/www/htdocs/assignment/app/Models/VoteModel.php(21): CodeIgniter\BaseModel->first()
+#7 /var/www/htdocs/assignment/app/Controllers/Thread.php(187): App\Models\VoteModel->getLikeForThread()
+#8 /var/www/htdocs/assignment/system/CodeIgniter.php(934): App\Controllers\Thread->like()
+#9 /var/www/htdocs/assignment/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#10 /var/www/htdocs/assignment/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#11 /var/www/htdocs/assignment/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-14 15:35:13 --> Unknown column 'user_id' in 'where clause'
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 4 APPPATH/Models/VoteModel.php(21): CodeIgniter\BaseModel->first()
+ 5 APPPATH/Controllers/Thread.php(187): App\Models\VoteModel->getLikeForThread()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Thread->like()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-14 15:35:47 --> mysqli_sql_exception: Unknown column 'user_id' in 'where clause' in /var/www/htdocs/assignment/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/htdocs/assignment/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/htdocs/assignment/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/htdocs/assignment/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/htdocs/assignment/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/assignment/system/Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/htdocs/assignment/system/BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 /var/www/htdocs/assignment/app/Models/VoteModel.php(21): CodeIgniter\BaseModel->first()
+#7 /var/www/htdocs/assignment/app/Controllers/Thread.php(187): App\Models\VoteModel->getLikeForThread()
+#8 /var/www/htdocs/assignment/system/CodeIgniter.php(934): App\Controllers\Thread->like()
+#9 /var/www/htdocs/assignment/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#10 /var/www/htdocs/assignment/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#11 /var/www/htdocs/assignment/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-14 15:35:47 --> Unknown column 'user_id' in 'where clause'
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 4 APPPATH/Models/VoteModel.php(21): CodeIgniter\BaseModel->first()
+ 5 APPPATH/Controllers/Thread.php(187): App\Models\VoteModel->getLikeForThread()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Thread->like()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-14 15:38:00 --> Call to undefined method App\Models\VoteModel::addLike
+in SYSTEMPATH/Model.php on line 842.
+ 1 APPPATH/Controllers/Thread.php(195): CodeIgniter\Model->__call()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Thread->like()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-14 15:39:39 --> Allowed fields must be specified for model: "App\Models\VoteModel"
+in SYSTEMPATH/BaseModel.php on line 1242.
+ 1 SYSTEMPATH/BaseModel.php(1242): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields()
+ 2 SYSTEMPATH/BaseModel.php(757): CodeIgniter\BaseModel->doProtectFields()
+ 3 SYSTEMPATH/Model.php(730): CodeIgniter\BaseModel->insert()
+ 4 APPPATH/Models/VoteModel.php(31): CodeIgniter\Model->insert()
+ 5 APPPATH/Controllers/Thread.php(195): App\Models\VoteModel->addLike()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Thread->like()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-14 15:39:41 --> Allowed fields must be specified for model: "App\Models\VoteModel"
+in SYSTEMPATH/BaseModel.php on line 1242.
+ 1 SYSTEMPATH/BaseModel.php(1242): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields()
+ 2 SYSTEMPATH/BaseModel.php(757): CodeIgniter\BaseModel->doProtectFields()
+ 3 SYSTEMPATH/Model.php(730): CodeIgniter\BaseModel->insert()
+ 4 APPPATH/Models/VoteModel.php(31): CodeIgniter\Model->insert()
+ 5 APPPATH/Controllers/Thread.php(195): App\Models\VoteModel->addLike()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Thread->like()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-14 15:40:45 --> Allowed fields must be specified for model: "App\Models\VoteModel"
+in SYSTEMPATH/BaseModel.php on line 1242.
+ 1 SYSTEMPATH/BaseModel.php(1242): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields()
+ 2 SYSTEMPATH/BaseModel.php(757): CodeIgniter\BaseModel->doProtectFields()
+ 3 SYSTEMPATH/Model.php(730): CodeIgniter\BaseModel->insert()
+ 4 APPPATH/Models/VoteModel.php(31): CodeIgniter\Model->insert()
+ 5 APPPATH/Controllers/Thread.php(195): App\Models\VoteModel->addLike()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Thread->like()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-14 15:46:44 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`edu_forum`.`Vote`, CONSTRAINT `comment_id` FOREIGN KEY (`comment_id`) REFERENCES `Comment` (`comment_id`) ON DELETE CASCADE ON UPDATE CASCADE) in /var/www/htdocs/assignment/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/htdocs/assignment/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/htdocs/assignment/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/htdocs/assignment/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/htdocs/assignment/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/assignment/system/Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/htdocs/assignment/system/BaseModel.php(782): CodeIgniter\Model->doInsert()
+#6 /var/www/htdocs/assignment/system/Model.php(730): CodeIgniter\BaseModel->insert()
+#7 /var/www/htdocs/assignment/app/Models/VoteModel.php(33): CodeIgniter\Model->insert()
+#8 /var/www/htdocs/assignment/app/Controllers/Thread.php(195): App\Models\VoteModel->addLike()
+#9 /var/www/htdocs/assignment/system/CodeIgniter.php(934): App\Controllers\Thread->like()
+#10 /var/www/htdocs/assignment/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#11 /var/www/htdocs/assignment/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#12 /var/www/htdocs/assignment/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-05-14 15:46:44 --> Cannot add or update a child row: a foreign key constraint fails (`edu_forum`.`Vote`, CONSTRAINT `comment_id` FOREIGN KEY (`comment_id`) REFERENCES `Comment` (`comment_id`) ON DELETE CASCADE ON UPDATE CASCADE)
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(782): CodeIgniter\Model->doInsert()
+ 4 SYSTEMPATH/Model.php(730): CodeIgniter\BaseModel->insert()
+ 5 APPPATH/Models/VoteModel.php(33): CodeIgniter\Model->insert()
+ 6 APPPATH/Controllers/Thread.php(195): App\Models\VoteModel->addLike()
+ 7 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Thread->like()
+ 8 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-14 15:51:25 --> Call to undefined method App\Models\VoteModel::countLikesForThread
+in SYSTEMPATH/Model.php on line 842.
+ 1 APPPATH/Controllers/Thread.php(196): CodeIgniter\Model->__call()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Thread->like()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-14 15:52:41 --> Too few arguments to function App\Models\VoteModel::removeLike(), 1 passed in /var/www/htdocs/assignment/app/Controllers/Thread.php on line 191 and exactly 2 expected
+in APPPATH/Models/VoteModel.php on line 36.
+ 1 APPPATH/Controllers/Thread.php(191): App\Models\VoteModel->removeLike()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Thread->like()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-14 16:01:08 --> Too few arguments to function App\Models\VoteModel::removeLike(), 1 passed in /var/www/htdocs/assignment/app/Controllers/Thread.php on line 191 and exactly 2 expected
+in APPPATH/Models/VoteModel.php on line 36.
+ 1 APPPATH/Controllers/Thread.php(191): App\Models\VoteModel->removeLike()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Thread->like()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-14 16:01:47 --> Too few arguments to function App\Models\VoteModel::removeLike(), 1 passed in /var/www/htdocs/assignment/app/Controllers/Thread.php on line 191 and exactly 2 expected
+in APPPATH/Models/VoteModel.php on line 36.
+ 1 APPPATH/Controllers/Thread.php(191): App\Models\VoteModel->removeLike()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Thread->like()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-14 16:02:01 --> Too few arguments to function App\Models\VoteModel::removeLike(), 1 passed in /var/www/htdocs/assignment/app/Controllers/Thread.php on line 191 and exactly 2 expected
+in APPPATH/Models/VoteModel.php on line 36.
+ 1 APPPATH/Controllers/Thread.php(191): App\Models\VoteModel->removeLike()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Thread->like()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-14 16:06:44 --> Too few arguments to function App\Models\ThreadModel::removeLike(), 1 passed in /var/www/htdocs/assignment/app/Controllers/Thread.php on line 192 and exactly 2 expected
+in APPPATH/Models/ThreadModel.php on line 107.
+ 1 APPPATH/Controllers/Thread.php(192): App\Models\ThreadModel->removeLike()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Thread->like()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-14 16:06:45 --> Too few arguments to function App\Models\ThreadModel::removeLike(), 1 passed in /var/www/htdocs/assignment/app/Controllers/Thread.php on line 192 and exactly 2 expected
+in APPPATH/Models/ThreadModel.php on line 107.
+ 1 APPPATH/Controllers/Thread.php(192): App\Models\ThreadModel->removeLike()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Thread->like()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-14 16:07:57 --> Too few arguments to function App\Models\VoteModel::removeLike(), 1 passed in /var/www/htdocs/assignment/app/Controllers/Thread.php on line 191 and exactly 2 expected
+in APPPATH/Models/VoteModel.php on line 36.
+ 1 APPPATH/Controllers/Thread.php(191): App\Models\VoteModel->removeLike()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Thread->like()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-14 16:10:16 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in /var/www/htdocs/assignment/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/htdocs/assignment/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/htdocs/assignment/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/htdocs/assignment/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/htdocs/assignment/system/Database/BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/assignment/system/Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+#5 /var/www/htdocs/assignment/system/BaseModel.php(1065): CodeIgniter\Model->doDelete()
+#6 /var/www/htdocs/assignment/app/Controllers/Thread.php(218): CodeIgniter\BaseModel->delete()
+#7 /var/www/htdocs/assignment/app/Controllers/Thread.php(192): App\Controllers\Thread->removeLike()
+#8 /var/www/htdocs/assignment/system/CodeIgniter.php(934): App\Controllers\Thread->like()
+#9 /var/www/htdocs/assignment/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#10 /var/www/htdocs/assignment/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#11 /var/www/htdocs/assignment/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-14 16:10:16 --> Unknown column 'id' in 'where clause'
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+ 3 SYSTEMPATH/BaseModel.php(1065): CodeIgniter\Model->doDelete()
+ 4 APPPATH/Controllers/Thread.php(218): CodeIgniter\BaseModel->delete()
+ 5 APPPATH/Controllers/Thread.php(192): App\Controllers\Thread->removeLike()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Thread->like()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-14 16:13:32 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in /var/www/htdocs/assignment/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/htdocs/assignment/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/htdocs/assignment/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/htdocs/assignment/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/htdocs/assignment/system/Database/BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/assignment/system/Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+#5 /var/www/htdocs/assignment/system/BaseModel.php(1065): CodeIgniter\Model->doDelete()
+#6 /var/www/htdocs/assignment/app/Controllers/Thread.php(218): CodeIgniter\BaseModel->delete()
+#7 /var/www/htdocs/assignment/app/Controllers/Thread.php(192): App\Controllers\Thread->removeLike()
+#8 /var/www/htdocs/assignment/system/CodeIgniter.php(934): App\Controllers\Thread->like()
+#9 /var/www/htdocs/assignment/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#10 /var/www/htdocs/assignment/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#11 /var/www/htdocs/assignment/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-14 16:13:32 --> Unknown column 'id' in 'where clause'
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+ 3 SYSTEMPATH/BaseModel.php(1065): CodeIgniter\Model->doDelete()
+ 4 APPPATH/Controllers/Thread.php(218): CodeIgniter\BaseModel->delete()
+ 5 APPPATH/Controllers/Thread.php(192): App\Controllers\Thread->removeLike()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Thread->like()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-14 16:13:49 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in /var/www/htdocs/assignment/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/htdocs/assignment/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/htdocs/assignment/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/htdocs/assignment/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/htdocs/assignment/system/Database/BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/assignment/system/Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+#5 /var/www/htdocs/assignment/system/BaseModel.php(1065): CodeIgniter\Model->doDelete()
+#6 /var/www/htdocs/assignment/app/Controllers/Thread.php(219): CodeIgniter\BaseModel->delete()
+#7 /var/www/htdocs/assignment/app/Controllers/Thread.php(192): App\Controllers\Thread->removeLike()
+#8 /var/www/htdocs/assignment/system/CodeIgniter.php(934): App\Controllers\Thread->like()
+#9 /var/www/htdocs/assignment/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#10 /var/www/htdocs/assignment/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#11 /var/www/htdocs/assignment/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-14 16:13:49 --> Unknown column 'id' in 'where clause'
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+ 3 SYSTEMPATH/BaseModel.php(1065): CodeIgniter\Model->doDelete()
+ 4 APPPATH/Controllers/Thread.php(219): CodeIgniter\BaseModel->delete()
+ 5 APPPATH/Controllers/Thread.php(192): App\Controllers\Thread->removeLike()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Thread->like()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-14 16:15:09 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in /var/www/htdocs/assignment/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/htdocs/assignment/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/htdocs/assignment/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/htdocs/assignment/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/htdocs/assignment/system/Database/BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/assignment/system/Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+#5 /var/www/htdocs/assignment/system/BaseModel.php(1065): CodeIgniter\Model->doDelete()
+#6 /var/www/htdocs/assignment/app/Controllers/Thread.php(219): CodeIgniter\BaseModel->delete()
+#7 /var/www/htdocs/assignment/app/Controllers/Thread.php(192): App\Controllers\Thread->removeLike()
+#8 /var/www/htdocs/assignment/system/CodeIgniter.php(934): App\Controllers\Thread->like()
+#9 /var/www/htdocs/assignment/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#10 /var/www/htdocs/assignment/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#11 /var/www/htdocs/assignment/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-14 16:15:09 --> Unknown column 'id' in 'where clause'
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+ 3 SYSTEMPATH/BaseModel.php(1065): CodeIgniter\Model->doDelete()
+ 4 APPPATH/Controllers/Thread.php(219): CodeIgniter\BaseModel->delete()
+ 5 APPPATH/Controllers/Thread.php(192): App\Controllers\Thread->removeLike()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Thread->like()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-14 16:16:38 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in /var/www/htdocs/assignment/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/htdocs/assignment/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/htdocs/assignment/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/htdocs/assignment/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/htdocs/assignment/system/Database/BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/assignment/system/Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+#5 /var/www/htdocs/assignment/system/BaseModel.php(1065): CodeIgniter\Model->doDelete()
+#6 /var/www/htdocs/assignment/app/Controllers/Thread.php(221): CodeIgniter\BaseModel->delete()
+#7 /var/www/htdocs/assignment/app/Controllers/Thread.php(192): App\Controllers\Thread->removeLike()
+#8 /var/www/htdocs/assignment/system/CodeIgniter.php(934): App\Controllers\Thread->like()
+#9 /var/www/htdocs/assignment/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#10 /var/www/htdocs/assignment/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#11 /var/www/htdocs/assignment/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-14 16:16:38 --> Unknown column 'id' in 'where clause'
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+ 3 SYSTEMPATH/BaseModel.php(1065): CodeIgniter\Model->doDelete()
+ 4 APPPATH/Controllers/Thread.php(221): CodeIgniter\BaseModel->delete()
+ 5 APPPATH/Controllers/Thread.php(192): App\Controllers\Thread->removeLike()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Thread->like()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-14 16:21:08 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in /var/www/htdocs/assignment/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/htdocs/assignment/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/htdocs/assignment/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/htdocs/assignment/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/htdocs/assignment/system/Database/BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/assignment/system/Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+#5 /var/www/htdocs/assignment/system/BaseModel.php(1065): CodeIgniter\Model->doDelete()
+#6 /var/www/htdocs/assignment/app/Controllers/Thread.php(219): CodeIgniter\BaseModel->delete()
+#7 /var/www/htdocs/assignment/app/Controllers/Thread.php(192): App\Controllers\Thread->removeLike()
+#8 /var/www/htdocs/assignment/system/CodeIgniter.php(934): App\Controllers\Thread->like()
+#9 /var/www/htdocs/assignment/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#10 /var/www/htdocs/assignment/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#11 /var/www/htdocs/assignment/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-14 16:21:08 --> Unknown column 'id' in 'where clause'
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+ 3 SYSTEMPATH/BaseModel.php(1065): CodeIgniter\Model->doDelete()
+ 4 APPPATH/Controllers/Thread.php(219): CodeIgniter\BaseModel->delete()
+ 5 APPPATH/Controllers/Thread.php(192): App\Controllers\Thread->removeLike()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Thread->like()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-14 16:21:09 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in /var/www/htdocs/assignment/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/htdocs/assignment/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/htdocs/assignment/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/htdocs/assignment/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/htdocs/assignment/system/Database/BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/assignment/system/Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+#5 /var/www/htdocs/assignment/system/BaseModel.php(1065): CodeIgniter\Model->doDelete()
+#6 /var/www/htdocs/assignment/app/Controllers/Thread.php(219): CodeIgniter\BaseModel->delete()
+#7 /var/www/htdocs/assignment/app/Controllers/Thread.php(192): App\Controllers\Thread->removeLike()
+#8 /var/www/htdocs/assignment/system/CodeIgniter.php(934): App\Controllers\Thread->like()
+#9 /var/www/htdocs/assignment/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#10 /var/www/htdocs/assignment/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#11 /var/www/htdocs/assignment/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-14 16:21:09 --> Unknown column 'id' in 'where clause'
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+ 3 SYSTEMPATH/BaseModel.php(1065): CodeIgniter\Model->doDelete()
+ 4 APPPATH/Controllers/Thread.php(219): CodeIgniter\BaseModel->delete()
+ 5 APPPATH/Controllers/Thread.php(192): App\Controllers\Thread->removeLike()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Thread->like()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-14 16:21:56 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in /var/www/htdocs/assignment/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/htdocs/assignment/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/htdocs/assignment/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/htdocs/assignment/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/htdocs/assignment/system/Database/BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/assignment/system/Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+#5 /var/www/htdocs/assignment/system/BaseModel.php(1065): CodeIgniter\Model->doDelete()
+#6 /var/www/htdocs/assignment/app/Controllers/Thread.php(219): CodeIgniter\BaseModel->delete()
+#7 /var/www/htdocs/assignment/app/Controllers/Thread.php(192): App\Controllers\Thread->removeLike()
+#8 /var/www/htdocs/assignment/system/CodeIgniter.php(934): App\Controllers\Thread->like()
+#9 /var/www/htdocs/assignment/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#10 /var/www/htdocs/assignment/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#11 /var/www/htdocs/assignment/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-14 16:21:56 --> Unknown column 'id' in 'where clause'
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+ 3 SYSTEMPATH/BaseModel.php(1065): CodeIgniter\Model->doDelete()
+ 4 APPPATH/Controllers/Thread.php(219): CodeIgniter\BaseModel->delete()
+ 5 APPPATH/Controllers/Thread.php(192): App\Controllers\Thread->removeLike()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Thread->like()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

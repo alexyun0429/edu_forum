@@ -1,0 +1,134 @@
+CRITICAL - 2023-05-15 06:26:50 --> Undefined array key "profile_picture"
+in APPPATH/Controllers/Thread.php on line 43.
+ 1 APPPATH/Controllers/Thread.php(43): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Thread->show()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-15 06:41:15 --> Undefined property: App\Controllers\Thread::$db
+in APPPATH/Controllers/Thread.php on line 216.
+ 1 APPPATH/Controllers/Thread.php(216): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Thread.php(190): App\Controllers\Thread->removeLike()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Thread->like()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-15 06:43:24 --> Call to a member function error() on null
+in APPPATH/Controllers/Thread.php on line 218.
+ 1 APPPATH/Controllers/Thread.php(192): App\Controllers\Thread->removeLike()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Thread->like()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-15 06:43:25 --> Call to a member function error() on null
+in APPPATH/Controllers/Thread.php on line 218.
+ 1 APPPATH/Controllers/Thread.php(192): App\Controllers\Thread->removeLike()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Thread->like()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-15 06:45:47 --> Call to undefined method App\Controllers\Thread::delete()
+in APPPATH/Controllers/Thread.php on line 207.
+ 1 APPPATH/Controllers/Thread.php(192): App\Controllers\Thread->removeLike()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Thread->like()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-15 06:46:27 --> Call to undefined method App\Controllers\Thread::delete()
+in APPPATH/Controllers/Thread.php on line 208.
+ 1 APPPATH/Controllers/Thread.php(192): App\Controllers\Thread->removeLike()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Thread->like()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-15 06:46:28 --> Call to undefined method App\Controllers\Thread::delete()
+in APPPATH/Controllers/Thread.php on line 208.
+ 1 APPPATH/Controllers/Thread.php(192): App\Controllers\Thread->removeLike()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Thread->like()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-15 06:47:54 --> Call to undefined method App\Controllers\Thread::removeLike()
+in APPPATH/Controllers/Thread.php on line 192.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Thread->like()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-15 06:47:54 --> Call to undefined method App\Controllers\Thread::removeLike()
+in APPPATH/Controllers/Thread.php on line 192.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Thread->like()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-15 06:48:55 --> Call to a member function error() on null
+in APPPATH/Controllers/Thread.php on line 218.
+ 1 APPPATH/Controllers/Thread.php(192): App\Controllers\Thread->removeLike()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Thread->like()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-15 06:49:03 --> Call to a member function error() on null
+in APPPATH/Controllers/Thread.php on line 218.
+ 1 APPPATH/Controllers/Thread.php(192): App\Controllers\Thread->removeLike()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Thread->like()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-15 06:57:18 --> Array to string conversion
+in APPPATH/Controllers/Thread.php on line 215.
+ 1 APPPATH/Controllers/Thread.php(215): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Thread.php(192): App\Controllers\Thread->removeLike()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Thread->like()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-15 06:57:42 --> Unsupported operand types: string + array
+in APPPATH/Controllers/Thread.php on line 215.
+ 1 APPPATH/Controllers/Thread.php(192): App\Controllers\Thread->removeLike()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Thread->like()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-15 06:58:36 --> CodeIgniter\BaseModel::delete(): Argument #2 ($purge) must be of type bool, null given, called in /var/www/htdocs/assignment/app/Models/VoteModel.php on line 48
+in SYSTEMPATH/BaseModel.php on line 1042.
+ 1 APPPATH/Models/VoteModel.php(48): CodeIgniter\BaseModel->delete()
+ 2 APPPATH/Controllers/Thread.php(217): App\Models\VoteModel->delete()
+ 3 APPPATH/Controllers/Thread.php(192): App\Controllers\Thread->removeLike()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Thread->like()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-15 06:58:58 --> CodeIgniter\BaseModel::delete(): Argument #2 ($purge) must be of type bool, null given, called in /var/www/htdocs/assignment/app/Models/VoteModel.php on line 48
+in SYSTEMPATH/BaseModel.php on line 1042.
+ 1 APPPATH/Models/VoteModel.php(48): CodeIgniter\BaseModel->delete()
+ 2 APPPATH/Controllers/Thread.php(217): App\Models\VoteModel->delete()
+ 3 APPPATH/Controllers/Thread.php(192): App\Controllers\Thread->removeLike()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Thread->like()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-15 06:58:59 --> CodeIgniter\BaseModel::delete(): Argument #2 ($purge) must be of type bool, null given, called in /var/www/htdocs/assignment/app/Models/VoteModel.php on line 48
+in SYSTEMPATH/BaseModel.php on line 1042.
+ 1 APPPATH/Models/VoteModel.php(48): CodeIgniter\BaseModel->delete()
+ 2 APPPATH/Controllers/Thread.php(217): App\Models\VoteModel->delete()
+ 3 APPPATH/Controllers/Thread.php(192): App\Controllers\Thread->removeLike()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Thread->like()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-15 06:59:59 --> CodeIgniter\BaseModel::delete(): Argument #2 ($purge) must be of type bool, null given, called in /var/www/htdocs/assignment/app/Models/VoteModel.php on line 48
+in SYSTEMPATH/BaseModel.php on line 1042.
+ 1 APPPATH/Models/VoteModel.php(48): CodeIgniter\BaseModel->delete()
+ 2 APPPATH/Controllers/Thread.php(217): App\Models\VoteModel->delete()
+ 3 APPPATH/Controllers/Thread.php(192): App\Controllers\Thread->removeLike()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Thread->like()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-15 13:44:17 --> Undefined array key "profile_picture"
+in APPPATH/Controllers/Forum.php on line 39.
+ 1 APPPATH/Controllers/Forum.php(39): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

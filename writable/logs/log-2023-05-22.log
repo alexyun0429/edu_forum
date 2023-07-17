@@ -1,0 +1,9 @@
+CRITICAL - 2023-05-22 02:51:19 --> [HTTP 401] Unable to create record: Authenticate
+in /var/www/htdocs/vendor/twilio/sdk/src/Twilio/Version.php on line 88.
+ 1 /var/www/htdocs/vendor/twilio/sdk/src/Twilio/Version.php(223): Twilio\Version->exception()
+ 2 /var/www/htdocs/vendor/twilio/sdk/src/Twilio/Rest/Api/V2010/Account/MessageList.php(113): Twilio\Version->create()
+ 3 APPPATH/Controllers/Register.php(69): Twilio\Rest\Api\V2010\Account\MessageList->create()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->save()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

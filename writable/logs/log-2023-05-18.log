@@ -1,0 +1,216 @@
+CRITICAL - 2023-05-18 03:49:26 --> Unsupported operand types: string - int
+in APPPATH/Controllers/Forum.php on line 139.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->load_more_threads()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 03:50:19 --> Unsupported operand types: string - int
+in APPPATH/Controllers/Forum.php on line 139.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->load_more_threads()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 03:50:19 --> Unsupported operand types: string - int
+in APPPATH/Controllers/Forum.php on line 139.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->load_more_threads()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 03:50:19 --> Unsupported operand types: string - int
+in APPPATH/Controllers/Forum.php on line 139.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->load_more_threads()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 03:50:19 --> Unsupported operand types: string - int
+in APPPATH/Controllers/Forum.php on line 139.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->load_more_threads()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 03:50:19 --> Unsupported operand types: string - int
+in APPPATH/Controllers/Forum.php on line 139.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->load_more_threads()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 03:50:19 --> Unsupported operand types: string - int
+in APPPATH/Controllers/Forum.php on line 139.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->load_more_threads()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 03:50:19 --> Unsupported operand types: string - int
+in APPPATH/Controllers/Forum.php on line 139.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->load_more_threads()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 03:50:19 --> Unsupported operand types: string - int
+in APPPATH/Controllers/Forum.php on line 139.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->load_more_threads()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 03:50:19 --> Unsupported operand types: string - int
+in APPPATH/Controllers/Forum.php on line 139.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->load_more_threads()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 03:53:44 --> Unsupported operand types: string - int
+in APPPATH/Controllers/Forum.php on line 139.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->load_more_threads()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 03:58:37 --> Call to undefined function App\Controllers\int()
+in APPPATH/Controllers/Forum.php on line 139.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->load_more_threads()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-18 04:13:49 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-5, 5' at line 4 in /var/www/htdocs/assignment/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/htdocs/assignment/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/htdocs/assignment/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/htdocs/assignment/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/htdocs/assignment/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/assignment/app/Models/ThreadModel.php(110): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/htdocs/assignment/app/Controllers/Forum.php(25): App\Models\ThreadModel->getThreadsForCourseByPage()
+#6 /var/www/htdocs/assignment/system/CodeIgniter.php(934): App\Controllers\Forum->index()
+#7 /var/www/htdocs/assignment/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/htdocs/assignment/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/htdocs/assignment/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-05-18 04:13:49 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-5, 5' at line 4
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/ThreadModel.php(110): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Controllers/Forum.php(25): App\Models\ThreadModel->getThreadsForCourseByPage()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->index()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 06:05:11 --> Too few arguments to function App\Models\ThreadModel::getThreadsForCourseByPage(), 1 passed in /var/www/htdocs/assignment/app/Controllers/Forum.php on line 25 and exactly 3 expected
+in APPPATH/Models/ThreadModel.php on line 105.
+ 1 APPPATH/Controllers/Forum.php(25): App\Models\ThreadModel->getThreadsForCourseByPage()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 08:29:47 --> Class "App\Controllers\Client" not found
+in APPPATH/Controllers/Register.php on line 70.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->save()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 08:33:46 --> require_once(/path/to/vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH/Controllers/Register.php on line 21.
+ 1 APPPATH/Controllers/Register.php(21): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Register.php(21): require_once()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->save()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 08:37:00 --> require_once(/../Config/Autoload.php): Failed to open stream: No such file or directory
+in APPPATH/Controllers/Register.php on line 21.
+ 1 APPPATH/Controllers/Register.php(21): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Register.php(21): require_once()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->save()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 08:43:22 --> Class "App\Controllers\Client" not found
+in APPPATH/Controllers/Register.php on line 71.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->save()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 08:55:47 --> [HTTP 400] Unable to create record: The number  is unverified. Trial accounts cannot send messages to unverified numbers; verify  at twilio.com/user/account/phone-numbers/verified, or purchase a Twilio number to send messages to unverified numbers.
+in /var/www/htdocs/vendor/twilio/sdk/src/Twilio/Version.php on line 88.
+ 1 /var/www/htdocs/vendor/twilio/sdk/src/Twilio/Version.php(223): Twilio\Version->exception()
+ 2 /var/www/htdocs/vendor/twilio/sdk/src/Twilio/Rest/Api/V2010/Account/MessageList.php(113): Twilio\Version->create()
+ 3 APPPATH/Controllers/Register.php(74): Twilio\Rest\Api\V2010\Account\MessageList->create()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->save()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 09:10:51 --> Class "Dompdf\Dompdf" not found
+in APPPATH/Controllers/Profile.php on line 159.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->htmlToPDF()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 09:15:47 --> Class "Dompdf\Dompdf" not found
+in APPPATH/Controllers/Profile.php on line 159.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->htmlToPDF()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 09:19:31 --> Class "Dompdf\Dompdf" not found
+in APPPATH/Controllers/Profile.php on line 159.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->htmlToPDF()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 09:27:07 --> Class "Mpdf\Mpdf" not found
+in APPPATH/Controllers/Profile.php on line 15.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->index()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 09:32:16 --> Class "Mpdf\Mpdf" not found
+in APPPATH/Controllers/Profile.php on line 15.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->index()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 09:34:11 --> Class "Mpdf\Mpdf" not found
+in APPPATH/Controllers/Profile.php on line 16.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->index()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 09:37:35 --> Class "Mpdf\Mpdf" not found
+in APPPATH/Controllers/Profile.php on line 16.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->index()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 09:37:39 --> Class "Mpdf\Mpdf" not found
+in APPPATH/Controllers/Profile.php on line 16.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->index()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 09:39:32 --> Class "Mpdf\Mpdf" not found
+in APPPATH/Controllers/Profile.php on line 16.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->index()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 09:39:54 --> Class "Mpdf\Mpdf" not found
+in APPPATH/Controllers/Profile.php on line 15.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->index()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 09:39:56 --> Class "Mpdf\Mpdf" not found
+in APPPATH/Controllers/Profile.php on line 15.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->index()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 09:44:43 --> Class "Mpdf\Mpdf" not found
+in APPPATH/Controllers/Profile.php on line 15.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->index()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 09:44:48 --> Class "Mpdf\Mpdf" not found
+in APPPATH/Controllers/Profile.php on line 15.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->index()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

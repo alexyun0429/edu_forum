@@ -1,0 +1,1491 @@
+CRITICAL - 2023-05-17 06:21:49 --> Undefined array key "tag_name"
+in APPPATH/Views/forum/forum.php on line 72.
+ 1 APPPATH/Views/forum/forum.php(72): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/forum/forum.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Forum.php(95): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 06:22:47 --> Undefined variable $availableTags
+in APPPATH/Views/forum/forum.php on line 124.
+ 1 APPPATH/Views/forum/forum.php(124): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/forum/forum.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Forum.php(96): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 06:23:14 --> Undefined variable $availableTags
+in APPPATH/Views/forum/forum.php on line 124.
+ 1 APPPATH/Views/forum/forum.php(124): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/forum/forum.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Forum.php(97): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 06:23:14 --> Undefined variable $availableTags
+in APPPATH/Views/forum/forum.php on line 124.
+ 1 APPPATH/Views/forum/forum.php(124): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/forum/forum.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Forum.php(97): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 06:23:15 --> Undefined variable $availableTags
+in APPPATH/Views/forum/forum.php on line 124.
+ 1 APPPATH/Views/forum/forum.php(124): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/forum/forum.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Forum.php(97): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 06:23:17 --> Undefined variable $availableTags
+in APPPATH/Views/forum/forum.php on line 124.
+ 1 APPPATH/Views/forum/forum.php(124): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/forum/forum.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Forum.php(97): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 06:23:37 --> Undefined variable $availableTags
+in APPPATH/Views/forum/forum.php on line 124.
+ 1 APPPATH/Views/forum/forum.php(124): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/forum/forum.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Forum.php(97): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 06:23:41 --> Undefined array key "tag_name"
+in APPPATH/Views/forum/forum.php on line 72.
+ 1 APPPATH/Views/forum/forum.php(72): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/forum/forum.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Forum.php(95): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 06:25:39 --> Undefined array key "tag_name"
+in APPPATH/Views/forum/forum.php on line 72.
+ 1 APPPATH/Views/forum/forum.php(72): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/forum/forum.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Forum.php(95): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 06:26:12 --> Undefined array key "tag_name"
+in APPPATH/Views/forum/forum.php on line 72.
+ 1 APPPATH/Views/forum/forum.php(72): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/forum/forum.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Forum.php(94): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 06:26:42 --> Undefined array key "tag_name"
+in APPPATH/Views/forum/forum.php on line 72.
+ 1 APPPATH/Views/forum/forum.php(72): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/forum/forum.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Forum.php(94): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 06:27:30 --> Undefined array key "tag_name"
+in APPPATH/Views/forum/forum.php on line 72.
+ 1 APPPATH/Views/forum/forum.php(72): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/forum/forum.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Forum.php(94): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 06:27:32 --> Undefined array key "tag_name"
+in APPPATH/Views/forum/forum.php on line 72.
+ 1 APPPATH/Views/forum/forum.php(72): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/forum/forum.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Forum.php(94): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 06:27:37 --> Undefined array key "tag_name"
+in APPPATH/Views/forum/forum.php on line 72.
+ 1 APPPATH/Views/forum/forum.php(72): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/forum/forum.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Forum.php(94): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 06:28:51 --> Undefined array key "tag_name"
+in APPPATH/Views/forum/forum.php on line 72.
+ 1 APPPATH/Views/forum/forum.php(72): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/forum/forum.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Forum.php(95): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 06:28:53 --> Undefined array key "tag_name"
+in APPPATH/Views/forum/forum.php on line 72.
+ 1 APPPATH/Views/forum/forum.php(72): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/forum/forum.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Forum.php(95): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 06:29:45 --> Undefined array key "tag_name"
+in APPPATH/Views/forum/forum.php on line 72.
+ 1 APPPATH/Views/forum/forum.php(72): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/forum/forum.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Forum.php(95): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 06:29:46 --> Undefined array key "tag_name"
+in APPPATH/Views/forum/forum.php on line 72.
+ 1 APPPATH/Views/forum/forum.php(72): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/forum/forum.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Forum.php(95): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 06:29:47 --> Undefined array key "tag_name"
+in APPPATH/Views/forum/forum.php on line 72.
+ 1 APPPATH/Views/forum/forum.php(72): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/forum/forum.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Forum.php(95): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 06:29:50 --> Undefined array key "tag_name"
+in APPPATH/Views/forum/forum.php on line 72.
+ 1 APPPATH/Views/forum/forum.php(72): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/forum/forum.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Forum.php(95): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 06:30:27 --> Undefined array key "tag_name"
+in APPPATH/Views/forum/forum.php on line 72.
+ 1 APPPATH/Views/forum/forum.php(72): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/forum/forum.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Forum.php(95): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 06:30:28 --> Undefined array key "tag_name"
+in APPPATH/Views/forum/forum.php on line 72.
+ 1 APPPATH/Views/forum/forum.php(72): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/forum/forum.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Forum.php(95): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 06:32:44 --> Undefined variable $availableTags
+in APPPATH/Views/forum/forum.php on line 124.
+ 1 APPPATH/Views/forum/forum.php(124): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/forum/forum.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Forum.php(95): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 06:32:44 --> Undefined variable $availableTags
+in APPPATH/Views/forum/forum.php on line 124.
+ 1 APPPATH/Views/forum/forum.php(124): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/forum/forum.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Forum.php(95): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 07:11:12 --> Undefined property: App\Controllers\Forum::$threadModel
+in APPPATH/Controllers/Forum.php on line 82.
+ 1 APPPATH/Controllers/Forum.php(82): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 07:13:41 --> Undefined variable $course_name
+in APPPATH/Views/dashboard/dashboard.php on line 36.
+ 1 APPPATH/Views/dashboard/dashboard.php(36): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/dashboard/dashboard.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Dashboard.php(29): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 07:42:16 --> Undefined variable $threads
+in APPPATH/Views/dashboard/dashboard.php on line 73.
+ 1 APPPATH/Views/dashboard/dashboard.php(73): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/dashboard/dashboard.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Dashboard.php(42): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 07:43:47 --> Undefined variable $threads
+in APPPATH/Controllers/Dashboard.php on line 39.
+ 1 APPPATH/Controllers/Dashboard.php(39): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Dashboard->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 07:48:29 --> Undefined variable $course_code
+in APPPATH/Views/dashboard/dashboard.php on line 75.
+ 1 APPPATH/Views/dashboard/dashboard.php(75): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/dashboard/dashboard.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Dashboard.php(42): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 07:50:01 --> Undefined variable $courseModel
+in APPPATH/Controllers/Dashboard.php on line 19.
+ 1 APPPATH/Controllers/Dashboard.php(19): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Dashboard->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 07:50:59 --> Undefined variable $course_code
+in APPPATH/Views/dashboard/dashboard.php on line 75.
+ 1 APPPATH/Views/dashboard/dashboard.php(75): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/dashboard/dashboard.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Dashboard.php(43): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:13:14 --> No course found with course code: loadMoreThreads
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(24): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:13:14 --> No course found with course code: loadMoreThreads
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(24): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:13:14 --> No course found with course code: loadMoreThreads
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(24): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:13:14 --> No course found with course code: loadMoreThreads
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(24): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:13:14 --> No course found with course code: loadMoreThreads
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(24): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:13:14 --> No course found with course code: loadMoreThreads
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(24): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:13:14 --> No course found with course code: loadMoreThreads
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(24): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:13:14 --> No course found with course code: loadMoreThreads
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(24): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:13:14 --> No course found with course code: loadMoreThreads
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(24): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:13:14 --> No course found with course code: loadMoreThreads
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(24): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:13:14 --> No course found with course code: loadMoreThreads
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(24): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:13:14 --> No course found with course code: loadMoreThreads
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(24): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:13:14 --> No course found with course code: loadMoreThreads
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(24): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:13:15 --> No course found with course code: loadMoreThreads
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(24): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:13:15 --> No course found with course code: loadMoreThreads
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(24): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:13:15 --> No course found with course code: loadMoreThreads
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(24): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:13:15 --> No course found with course code: loadMoreThreads
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(24): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:13:15 --> No course found with course code: loadMoreThreads
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(24): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:13:15 --> No course found with course code: loadMoreThreads
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(24): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:13:15 --> No course found with course code: loadMoreThreads
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(24): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:13:15 --> No course found with course code: loadMoreThreads
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(24): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:13:15 --> No course found with course code: loadMoreThreads
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(24): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:13:15 --> No course found with course code: loadMoreThreads
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(24): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:13:15 --> No course found with course code: loadMoreThreads
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(24): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:13:15 --> No course found with course code: loadMoreThreads
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(24): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:13:15 --> No course found with course code: loadMoreThreads
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(24): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:13:15 --> No course found with course code: loadMoreThreads
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(24): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:13:15 --> No course found with course code: loadMoreThreads
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(24): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:13:15 --> No course found with course code: loadMoreThreads
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(24): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:13:15 --> No course found with course code: loadMoreThreads
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(24): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:13:15 --> No course found with course code: loadMoreThreads
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(24): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:13:15 --> No course found with course code: loadMoreThreads
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(24): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:13:15 --> No course found with course code: loadMoreThreads
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(24): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:13:15 --> No course found with course code: loadMoreThreads
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(24): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:13:15 --> No course found with course code: loadMoreThreads
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(24): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:13:15 --> No course found with course code: loadMoreThreads
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(24): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:13:15 --> No course found with course code: loadMoreThreads
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(24): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:13:15 --> No course found with course code: loadMoreThreads
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(24): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:13:15 --> No course found with course code: loadMoreThreads
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(24): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:13:15 --> No course found with course code: loadMoreThreads
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(24): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:13:15 --> No course found with course code: loadMoreThreads
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(24): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:13:15 --> No course found with course code: loadMoreThreads
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(24): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:13:15 --> No course found with course code: loadMoreThreads
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(24): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:13:15 --> No course found with course code: loadMoreThreads
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(24): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:13:15 --> No course found with course code: loadMoreThreads
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(24): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:13:15 --> No course found with course code: loadMoreThreads
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(24): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:13:15 --> No course found with course code: loadMoreThreads
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(24): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:13:15 --> No course found with course code: loadMoreThreads
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(24): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:13:15 --> No course found with course code: loadMoreThreads
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(24): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:13:15 --> No course found with course code: loadMoreThreads
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(24): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:13:15 --> No course found with course code: loadMoreThreads
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(24): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:13:15 --> No course found with course code: loadMoreThreads
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(24): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:13:15 --> No course found with course code: loadMoreThreads
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(24): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:13:16 --> No course found with course code: loadMoreThreads
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(24): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:13:16 --> No course found with course code: loadMoreThreads
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(24): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:13:16 --> No course found with course code: loadMoreThreads
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(24): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:13:16 --> No course found with course code: loadMoreThreads
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(24): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:13:16 --> No course found with course code: loadMoreThreads
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(24): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:13:16 --> No course found with course code: loadMoreThreads
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(24): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:13:16 --> No course found with course code: loadMoreThreads
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(24): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:13:16 --> No course found with course code: loadMoreThreads
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(24): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:13:16 --> No course found with course code: loadMoreThreads
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(24): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:13:16 --> No course found with course code: loadMoreThreads
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(24): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:13:16 --> No course found with course code: loadMoreThreads
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(24): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:13:16 --> No course found with course code: loadMoreThreads
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(24): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:13:16 --> No course found with course code: loadMoreThreads
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(24): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:13:16 --> No course found with course code: loadMoreThreads
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(24): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:13:16 --> No course found with course code: loadMoreThreads
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(24): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:13:16 --> No course found with course code: loadMoreThreads
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(24): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:13:16 --> No course found with course code: loadMoreThreads
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(24): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:13:16 --> No course found with course code: loadMoreThreads
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(24): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:13:16 --> No course found with course code: loadMoreThreads
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(24): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:13:16 --> No course found with course code: loadMoreThreads
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(24): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:13:16 --> No course found with course code: loadMoreThreads
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(24): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:13:16 --> No course found with course code: loadMoreThreads
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(24): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:13:16 --> No course found with course code: loadMoreThreads
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(24): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:13:16 --> No course found with course code: loadMoreThreads
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(24): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:13:16 --> No course found with course code: loadMoreThreads
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(24): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:13:16 --> No course found with course code: loadMoreThreads
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(24): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:13:16 --> No course found with course code: loadMoreThreads
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(24): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:13:16 --> No course found with course code: loadMoreThreads
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(24): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:13:16 --> No course found with course code: loadMoreThreads
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(24): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:13:16 --> No course found with course code: loadMoreThreads
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(24): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:13:16 --> No course found with course code: loadMoreThreads
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(24): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:13:16 --> No course found with course code: loadMoreThreads
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(24): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:13:16 --> No course found with course code: loadMoreThreads
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(24): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:13:16 --> No course found with course code: loadMoreThreads
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(24): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:13:16 --> No course found with course code: loadMoreThreads
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(24): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:22:39 --> No course found with course code: 2
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(166): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->loadMoreThreads()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:22:40 --> No course found with course code: 3
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(166): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->loadMoreThreads()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:22:40 --> No course found with course code: 4
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(166): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->loadMoreThreads()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:22:40 --> No course found with course code: 5
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(166): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->loadMoreThreads()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:22:40 --> No course found with course code: 6
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(166): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->loadMoreThreads()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:22:40 --> No course found with course code: 7
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(166): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->loadMoreThreads()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:22:40 --> No course found with course code: 8
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(166): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->loadMoreThreads()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:22:40 --> No course found with course code: 9
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(166): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->loadMoreThreads()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:22:40 --> No course found with course code: 10
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(166): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->loadMoreThreads()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:22:40 --> No course found with course code: 11
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(166): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->loadMoreThreads()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:22:40 --> No course found with course code: 12
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(166): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->loadMoreThreads()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:22:40 --> No course found with course code: 13
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(166): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->loadMoreThreads()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:22:40 --> No course found with course code: 14
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(166): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->loadMoreThreads()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:22:40 --> No course found with course code: 15
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(166): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->loadMoreThreads()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:22:40 --> No course found with course code: 16
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(166): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->loadMoreThreads()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:22:40 --> No course found with course code: 17
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(166): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->loadMoreThreads()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:22:40 --> No course found with course code: 18
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(166): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->loadMoreThreads()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:22:40 --> No course found with course code: 19
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(166): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->loadMoreThreads()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:22:40 --> No course found with course code: 20
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(166): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->loadMoreThreads()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:22:40 --> No course found with course code: 21
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(166): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->loadMoreThreads()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:22:40 --> No course found with course code: 22
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(166): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->loadMoreThreads()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:22:40 --> No course found with course code: 23
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(166): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->loadMoreThreads()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:23:09 --> No course found with course code: 24
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(166): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->loadMoreThreads()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:23:09 --> No course found with course code: 25
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(166): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->loadMoreThreads()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:23:09 --> No course found with course code: 26
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(166): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->loadMoreThreads()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:23:09 --> No course found with course code: 27
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(166): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->loadMoreThreads()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:23:09 --> No course found with course code: 28
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(166): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->loadMoreThreads()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:23:10 --> No course found with course code: 29
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(166): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->loadMoreThreads()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:23:10 --> No course found with course code: 30
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(166): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->loadMoreThreads()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:23:10 --> No course found with course code: 31
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(166): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->loadMoreThreads()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:23:10 --> No course found with course code: 32
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(166): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->loadMoreThreads()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:23:10 --> No course found with course code: 33
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(166): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->loadMoreThreads()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:23:10 --> No course found with course code: 34
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(166): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->loadMoreThreads()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:23:10 --> No course found with course code: 35
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(166): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->loadMoreThreads()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:23:10 --> No course found with course code: 36
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(166): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->loadMoreThreads()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:23:10 --> No course found with course code: 37
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(166): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->loadMoreThreads()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:23:10 --> No course found with course code: 38
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(166): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->loadMoreThreads()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:23:13 --> No course found with course code: 39
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(166): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->loadMoreThreads()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:23:13 --> No course found with course code: 40
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(166): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->loadMoreThreads()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:23:13 --> No course found with course code: 41
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(166): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->loadMoreThreads()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:23:13 --> No course found with course code: 42
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(166): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->loadMoreThreads()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:23:13 --> No course found with course code: 43
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(166): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->loadMoreThreads()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:23:13 --> No course found with course code: 44
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(166): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->loadMoreThreads()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:23:13 --> No course found with course code: 45
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(166): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->loadMoreThreads()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:23:13 --> No course found with course code: 46
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(166): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->loadMoreThreads()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:23:13 --> No course found with course code: 47
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(166): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->loadMoreThreads()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:23:13 --> No course found with course code: 48
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(166): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->loadMoreThreads()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:23:13 --> No course found with course code: 49
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(166): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->loadMoreThreads()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:23:13 --> No course found with course code: 50
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(166): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->loadMoreThreads()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:23:13 --> No course found with course code: 51
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(166): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->loadMoreThreads()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:23:13 --> No course found with course code: 52
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(166): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->loadMoreThreads()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:23:13 --> No course found with course code: 53
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(166): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->loadMoreThreads()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:23:14 --> No course found with course code: 54
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(166): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->loadMoreThreads()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:23:14 --> No course found with course code: 55
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(166): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->loadMoreThreads()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:23:14 --> No course found with course code: 56
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(166): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->loadMoreThreads()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:23:14 --> No course found with course code: 57
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(166): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->loadMoreThreads()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:23:14 --> No course found with course code: 58
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(166): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->loadMoreThreads()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:23:14 --> No course found with course code: 60
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(166): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->loadMoreThreads()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:23:14 --> No course found with course code: 59
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(166): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->loadMoreThreads()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:23:14 --> No course found with course code: 61
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(166): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->loadMoreThreads()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:23:14 --> No course found with course code: 62
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(166): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->loadMoreThreads()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:23:14 --> No course found with course code: 63
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(166): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->loadMoreThreads()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:23:14 --> No course found with course code: 64
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(166): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->loadMoreThreads()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:23:14 --> No course found with course code: 65
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(166): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->loadMoreThreads()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:23:14 --> No course found with course code: 66
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(166): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->loadMoreThreads()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:23:14 --> No course found with course code: 67
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(166): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->loadMoreThreads()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:23:14 --> No course found with course code: 68
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(166): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->loadMoreThreads()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:23:14 --> No course found with course code: 69
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(166): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->loadMoreThreads()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:23:14 --> No course found with course code: 70
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(166): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->loadMoreThreads()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:23:17 --> No course found with course code: 71
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(166): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->loadMoreThreads()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:23:17 --> No course found with course code: 72
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(166): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->loadMoreThreads()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:23:17 --> No course found with course code: 73
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(166): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->loadMoreThreads()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:23:17 --> No course found with course code: 74
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(166): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->loadMoreThreads()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:23:17 --> No course found with course code: 75
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(166): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->loadMoreThreads()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:23:18 --> No course found with course code: 76
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(166): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->loadMoreThreads()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:23:18 --> No course found with course code: 77
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(166): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->loadMoreThreads()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:23:19 --> No course found with course code: 78
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(166): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->loadMoreThreads()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:23:19 --> No course found with course code: 79
+in APPPATH/Models/CourseModel.php on line 18.
+ 1 APPPATH/Controllers/Forum.php(166): App\Models\CourseModel->findCourseIdByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->loadMoreThreads()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

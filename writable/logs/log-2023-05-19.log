@@ -1,0 +1,706 @@
+CRITICAL - 2023-05-19 08:16:27 --> Undefined property: stdClass::$course_name
+in APPPATH/Views/dashboard/dashboard.php on line 82.
+ 1 APPPATH/Views/dashboard/dashboard.php(82): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/dashboard/dashboard.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Dashboard.php(43): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 08:17:27 --> Class "Mpdf\Mpdf" not found
+in APPPATH/Controllers/Profile.php on line 15.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->index()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 08:22:53 --> Undefined variable $is_phone_verified
+in APPPATH/Views/profile/profile.php on line 36.
+ 1 APPPATH/Views/profile/profile.php(36): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/profile/profile.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Profile.php(35): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 08:23:01 --> Undefined variable $is_phone_verified
+in APPPATH/Views/profile/profile.php on line 36.
+ 1 APPPATH/Views/profile/profile.php(36): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/profile/profile.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Profile.php(35): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 08:57:01 --> [HTTP 400] Unable to create record: The 'To' number 0422971994 is not a valid phone number.
+in /var/www/htdocs/vendor/twilio/sdk/src/Twilio/Version.php on line 88.
+ 1 /var/www/htdocs/vendor/twilio/sdk/src/Twilio/Version.php(223): Twilio\Version->exception()
+ 2 /var/www/htdocs/vendor/twilio/sdk/src/Twilio/Rest/Api/V2010/Account/MessageList.php(113): Twilio\Version->create()
+ 3 APPPATH/Controllers/Register.php(74): Twilio\Rest\Api\V2010\Account\MessageList->create()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->save()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 09:08:03 --> Class "Mpdf\Mpdf" not found
+in APPPATH/Controllers/Profile.php on line 15.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->index()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 09:45:30 --> Invalid file: "profile/profile_pdf.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Profile.php(51): view()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->generateProfilePDF()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 09:48:32 --> Undefined array key "enrolled_courses"
+in APPPATH/Views/profile/profile_pdf.php on line 23.
+ 1 APPPATH/Views/profile/profile_pdf.php(23): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/profile/profile_pdf.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Profile.php(51): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->generateProfilePDF()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 09:49:15 --> Undefined array key "enrolled_courses"
+in APPPATH/Views/profile/profile_pdf.php on line 23.
+ 1 APPPATH/Views/profile/profile_pdf.php(23): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/profile/profile_pdf.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Profile.php(53): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->generateProfilePDF()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 09:49:17 --> Undefined array key "enrolled_courses"
+in APPPATH/Views/profile/profile_pdf.php on line 23.
+ 1 APPPATH/Views/profile/profile_pdf.php(23): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/profile/profile_pdf.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Profile.php(53): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->generateProfilePDF()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 09:50:10 --> Class "Mpdf\Mpdf" not found
+in APPPATH/Controllers/Profile.php on line 57.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->generateProfilePDF()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 09:50:12 --> Class "Mpdf\Mpdf" not found
+in APPPATH/Controllers/Profile.php on line 57.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->generateProfilePDF()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 10:11:48 --> Class "Mpdf\Mpdf" not found
+in APPPATH/Controllers/Profile.php on line 57.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->generateProfilePDF()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 10:12:52 --> Class "Mpdf\Mpdf" not found
+in APPPATH/Controllers/Profile.php on line 57.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->generateProfilePDF()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 10:16:20 --> Class "Mpdf\Mpdf" not found
+in APPPATH/Controllers/Profile.php on line 57.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->generateProfilePDF()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 10:16:32 --> Undefined variable $mpdf
+in APPPATH/Controllers/Profile.php on line 60.
+ 1 APPPATH/Controllers/Profile.php(60): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->generateProfilePDF()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 10:16:38 --> Class "Mpdf\Mpdf" not found
+in APPPATH/Controllers/Profile.php on line 57.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->generateProfilePDF()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 10:34:20 --> Class "Mpdf\Mpdf" not found
+in APPPATH/Controllers/Profile.php on line 57.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->generateProfilePDF()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 10:36:05 --> Class "Mpdf\Mpdf" not found
+in APPPATH/Controllers/Profile.php on line 57.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->generateProfilePDF()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 10:53:00 --> Class "Mpdf\Mpdf" not found
+in APPPATH/Controllers/Profile.php on line 57.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->generateProfilePDF()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 12:10:40 --> Call to undefined method App\Controllers\Thread::removeLikes()
+in APPPATH/Controllers/Thread.php on line 192.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Thread->like()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 12:10:48 --> Call to undefined method App\Controllers\Thread::removeLikes()
+in APPPATH/Controllers/Thread.php on line 192.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Thread->like()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 12:11:20 --> Call to undefined method App\Controllers\Thread::removeLikes()
+in APPPATH/Controllers/Thread.php on line 192.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Thread->like()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 12:11:32 --> Call to undefined method App\Controllers\Thread::removeLikes()
+in APPPATH/Controllers/Thread.php on line 192.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Thread->like()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 12:12:12 --> Call to undefined method App\Controllers\Thread::removeLikes()
+in APPPATH/Controllers/Thread.php on line 192.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Thread->like()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 13:01:50 --> Too few arguments to function App\Models\VoteModel::removeLike(), 1 passed in /var/www/htdocs/assignment/app/Controllers/Thread.php on line 216 and exactly 2 expected
+in APPPATH/Models/VoteModel.php on line 37.
+ 1 APPPATH/Controllers/Thread.php(216): App\Models\VoteModel->removeLike()
+ 2 APPPATH/Controllers/Thread.php(192): App\Controllers\Thread->removeLikes()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Thread->like()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 13:01:51 --> Too few arguments to function App\Models\VoteModel::removeLike(), 1 passed in /var/www/htdocs/assignment/app/Controllers/Thread.php on line 216 and exactly 2 expected
+in APPPATH/Models/VoteModel.php on line 37.
+ 1 APPPATH/Controllers/Thread.php(216): App\Models\VoteModel->removeLike()
+ 2 APPPATH/Controllers/Thread.php(192): App\Controllers\Thread->removeLikes()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Thread->like()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 13:13:23 --> Too few arguments to function App\Models\VoteModel::removeLike(), 1 passed in /var/www/htdocs/assignment/app/Controllers/Thread.php on line 216 and exactly 2 expected
+in APPPATH/Models/VoteModel.php on line 37.
+ 1 APPPATH/Controllers/Thread.php(216): App\Models\VoteModel->removeLike()
+ 2 APPPATH/Controllers/Thread.php(192): App\Controllers\Thread->removeLikes()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Thread->like()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 13:13:25 --> Too few arguments to function App\Models\VoteModel::removeLike(), 1 passed in /var/www/htdocs/assignment/app/Controllers/Thread.php on line 216 and exactly 2 expected
+in APPPATH/Models/VoteModel.php on line 37.
+ 1 APPPATH/Controllers/Thread.php(216): App\Models\VoteModel->removeLike()
+ 2 APPPATH/Controllers/Thread.php(192): App\Controllers\Thread->removeLikes()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Thread->like()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 13:20:17 --> Call to undefined method App\Models\VoteModel::removeLike
+in SYSTEMPATH/Model.php on line 842.
+ 1 APPPATH/Controllers/Thread.php(216): CodeIgniter\Model->__call()
+ 2 APPPATH/Controllers/Thread.php(192): App\Controllers\Thread->removeLikes()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Thread->like()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 13:20:19 --> Call to undefined method App\Models\VoteModel::removeLike
+in SYSTEMPATH/Model.php on line 842.
+ 1 APPPATH/Controllers/Thread.php(216): CodeIgniter\Model->__call()
+ 2 APPPATH/Controllers/Thread.php(192): App\Controllers\Thread->removeLikes()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Thread->like()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 13:24:22 --> Call to undefined method App\Models\VoteModel::removeLike
+in SYSTEMPATH/Model.php on line 842.
+ 1 APPPATH/Controllers/Thread.php(216): CodeIgniter\Model->__call()
+ 2 APPPATH/Controllers/Thread.php(192): App\Controllers\Thread->removeLike()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Thread->like()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 13:25:06 --> Call to undefined method App\Controllers\Thread::removeLike()
+in APPPATH/Controllers/Thread.php on line 192.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Thread->like()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 13:25:08 --> Call to undefined method App\Controllers\Thread::removeLike()
+in APPPATH/Controllers/Thread.php on line 192.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Thread->like()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 13:26:58 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH/Database/BaseBuilder.php on line 2767.
+ 1 APPPATH/Models/VoteModel.php(48): CodeIgniter\Database\BaseBuilder->delete()
+ 2 APPPATH/Controllers/Thread.php(192): App\Models\VoteModel->removeLike()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Thread->like()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 13:28:49 --> Too few arguments to function App\Models\VoteModel::removeLike(), 1 passed in /var/www/htdocs/assignment/app/Controllers/Thread.php on line 216 and exactly 2 expected
+in APPPATH/Models/VoteModel.php on line 37.
+ 1 APPPATH/Controllers/Thread.php(216): App\Models\VoteModel->removeLike()
+ 2 APPPATH/Controllers/Thread.php(192): App\Controllers\Thread->removeLikes()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Thread->like()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 13:28:51 --> Too few arguments to function App\Models\VoteModel::removeLike(), 1 passed in /var/www/htdocs/assignment/app/Controllers/Thread.php on line 216 and exactly 2 expected
+in APPPATH/Models/VoteModel.php on line 37.
+ 1 APPPATH/Controllers/Thread.php(216): App\Models\VoteModel->removeLike()
+ 2 APPPATH/Controllers/Thread.php(192): App\Controllers\Thread->removeLikes()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Thread->like()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 13:32:32 --> Too few arguments to function App\Models\VoteModel::removeLike(), 1 passed in /var/www/htdocs/assignment/app/Controllers/Thread.php on line 215 and exactly 2 expected
+in APPPATH/Models/VoteModel.php on line 37.
+ 1 APPPATH/Controllers/Thread.php(215): App\Models\VoteModel->removeLike()
+ 2 APPPATH/Controllers/Thread.php(192): App\Controllers\Thread->removeLikes()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Thread->like()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 13:32:36 --> Too few arguments to function App\Models\VoteModel::removeLike(), 1 passed in /var/www/htdocs/assignment/app/Controllers/Thread.php on line 215 and exactly 2 expected
+in APPPATH/Models/VoteModel.php on line 37.
+ 1 APPPATH/Controllers/Thread.php(215): App\Models\VoteModel->removeLike()
+ 2 APPPATH/Controllers/Thread.php(192): App\Controllers\Thread->removeLikes()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Thread->like()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 13:32:38 --> Too few arguments to function App\Models\VoteModel::removeLike(), 1 passed in /var/www/htdocs/assignment/app/Controllers/Thread.php on line 215 and exactly 2 expected
+in APPPATH/Models/VoteModel.php on line 37.
+ 1 APPPATH/Controllers/Thread.php(215): App\Models\VoteModel->removeLike()
+ 2 APPPATH/Controllers/Thread.php(192): App\Controllers\Thread->removeLikes()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Thread->like()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-19 13:48:19 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`edu_forum`.`Vote`, CONSTRAINT `thread_vote` FOREIGN KEY (`thread_id`) REFERENCES `Thread` (`thread_id`) ON DELETE CASCADE ON UPDATE CASCADE) in /var/www/htdocs/assignment/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/htdocs/assignment/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/htdocs/assignment/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/htdocs/assignment/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/htdocs/assignment/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/assignment/system/Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/htdocs/assignment/system/BaseModel.php(782): CodeIgniter\Model->doInsert()
+#6 /var/www/htdocs/assignment/system/Model.php(730): CodeIgniter\BaseModel->insert()
+#7 /var/www/htdocs/assignment/app/Controllers/Thread.php(205): CodeIgniter\Model->insert()
+#8 /var/www/htdocs/assignment/system/CodeIgniter.php(934): App\Controllers\Thread->like()
+#9 /var/www/htdocs/assignment/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#10 /var/www/htdocs/assignment/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#11 /var/www/htdocs/assignment/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-19 13:48:19 --> Cannot add or update a child row: a foreign key constraint fails (`edu_forum`.`Vote`, CONSTRAINT `thread_vote` FOREIGN KEY (`thread_id`) REFERENCES `Thread` (`thread_id`) ON DELETE CASCADE ON UPDATE CASCADE)
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(782): CodeIgniter\Model->doInsert()
+ 4 SYSTEMPATH/Model.php(730): CodeIgniter\BaseModel->insert()
+ 5 APPPATH/Controllers/Thread.php(205): CodeIgniter\Model->insert()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Thread->like()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-19 13:48:20 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`edu_forum`.`Vote`, CONSTRAINT `thread_vote` FOREIGN KEY (`thread_id`) REFERENCES `Thread` (`thread_id`) ON DELETE CASCADE ON UPDATE CASCADE) in /var/www/htdocs/assignment/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/htdocs/assignment/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/htdocs/assignment/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/htdocs/assignment/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/htdocs/assignment/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/assignment/system/Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/htdocs/assignment/system/BaseModel.php(782): CodeIgniter\Model->doInsert()
+#6 /var/www/htdocs/assignment/system/Model.php(730): CodeIgniter\BaseModel->insert()
+#7 /var/www/htdocs/assignment/app/Controllers/Thread.php(205): CodeIgniter\Model->insert()
+#8 /var/www/htdocs/assignment/system/CodeIgniter.php(934): App\Controllers\Thread->like()
+#9 /var/www/htdocs/assignment/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#10 /var/www/htdocs/assignment/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#11 /var/www/htdocs/assignment/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-19 13:48:20 --> Cannot add or update a child row: a foreign key constraint fails (`edu_forum`.`Vote`, CONSTRAINT `thread_vote` FOREIGN KEY (`thread_id`) REFERENCES `Thread` (`thread_id`) ON DELETE CASCADE ON UPDATE CASCADE)
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(782): CodeIgniter\Model->doInsert()
+ 4 SYSTEMPATH/Model.php(730): CodeIgniter\BaseModel->insert()
+ 5 APPPATH/Controllers/Thread.php(205): CodeIgniter\Model->insert()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Thread->like()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-19 13:48:50 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`edu_forum`.`Vote`, CONSTRAINT `thread_vote` FOREIGN KEY (`thread_id`) REFERENCES `Thread` (`thread_id`) ON DELETE CASCADE ON UPDATE CASCADE) in /var/www/htdocs/assignment/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/htdocs/assignment/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/htdocs/assignment/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/htdocs/assignment/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/htdocs/assignment/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/assignment/system/Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/htdocs/assignment/system/BaseModel.php(782): CodeIgniter\Model->doInsert()
+#6 /var/www/htdocs/assignment/system/Model.php(730): CodeIgniter\BaseModel->insert()
+#7 /var/www/htdocs/assignment/app/Controllers/Thread.php(205): CodeIgniter\Model->insert()
+#8 /var/www/htdocs/assignment/system/CodeIgniter.php(934): App\Controllers\Thread->like()
+#9 /var/www/htdocs/assignment/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#10 /var/www/htdocs/assignment/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#11 /var/www/htdocs/assignment/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-19 13:48:50 --> Cannot add or update a child row: a foreign key constraint fails (`edu_forum`.`Vote`, CONSTRAINT `thread_vote` FOREIGN KEY (`thread_id`) REFERENCES `Thread` (`thread_id`) ON DELETE CASCADE ON UPDATE CASCADE)
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(782): CodeIgniter\Model->doInsert()
+ 4 SYSTEMPATH/Model.php(730): CodeIgniter\BaseModel->insert()
+ 5 APPPATH/Controllers/Thread.php(205): CodeIgniter\Model->insert()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Thread->like()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-19 13:48:50 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`edu_forum`.`Vote`, CONSTRAINT `thread_vote` FOREIGN KEY (`thread_id`) REFERENCES `Thread` (`thread_id`) ON DELETE CASCADE ON UPDATE CASCADE) in /var/www/htdocs/assignment/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/htdocs/assignment/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/htdocs/assignment/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/htdocs/assignment/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/htdocs/assignment/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/assignment/system/Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/htdocs/assignment/system/BaseModel.php(782): CodeIgniter\Model->doInsert()
+#6 /var/www/htdocs/assignment/system/Model.php(730): CodeIgniter\BaseModel->insert()
+#7 /var/www/htdocs/assignment/app/Controllers/Thread.php(205): CodeIgniter\Model->insert()
+#8 /var/www/htdocs/assignment/system/CodeIgniter.php(934): App\Controllers\Thread->like()
+#9 /var/www/htdocs/assignment/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#10 /var/www/htdocs/assignment/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#11 /var/www/htdocs/assignment/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-19 13:48:50 --> Cannot add or update a child row: a foreign key constraint fails (`edu_forum`.`Vote`, CONSTRAINT `thread_vote` FOREIGN KEY (`thread_id`) REFERENCES `Thread` (`thread_id`) ON DELETE CASCADE ON UPDATE CASCADE)
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(782): CodeIgniter\Model->doInsert()
+ 4 SYSTEMPATH/Model.php(730): CodeIgniter\BaseModel->insert()
+ 5 APPPATH/Controllers/Thread.php(205): CodeIgniter\Model->insert()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Thread->like()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-19 13:48:52 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`edu_forum`.`Vote`, CONSTRAINT `thread_vote` FOREIGN KEY (`thread_id`) REFERENCES `Thread` (`thread_id`) ON DELETE CASCADE ON UPDATE CASCADE) in /var/www/htdocs/assignment/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/htdocs/assignment/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/htdocs/assignment/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/htdocs/assignment/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/htdocs/assignment/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/assignment/system/Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/htdocs/assignment/system/BaseModel.php(782): CodeIgniter\Model->doInsert()
+#6 /var/www/htdocs/assignment/system/Model.php(730): CodeIgniter\BaseModel->insert()
+#7 /var/www/htdocs/assignment/app/Controllers/Thread.php(205): CodeIgniter\Model->insert()
+#8 /var/www/htdocs/assignment/system/CodeIgniter.php(934): App\Controllers\Thread->like()
+#9 /var/www/htdocs/assignment/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#10 /var/www/htdocs/assignment/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#11 /var/www/htdocs/assignment/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-19 13:48:52 --> Cannot add or update a child row: a foreign key constraint fails (`edu_forum`.`Vote`, CONSTRAINT `thread_vote` FOREIGN KEY (`thread_id`) REFERENCES `Thread` (`thread_id`) ON DELETE CASCADE ON UPDATE CASCADE)
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(782): CodeIgniter\Model->doInsert()
+ 4 SYSTEMPATH/Model.php(730): CodeIgniter\BaseModel->insert()
+ 5 APPPATH/Controllers/Thread.php(205): CodeIgniter\Model->insert()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Thread->like()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-19 13:48:52 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`edu_forum`.`Vote`, CONSTRAINT `thread_vote` FOREIGN KEY (`thread_id`) REFERENCES `Thread` (`thread_id`) ON DELETE CASCADE ON UPDATE CASCADE) in /var/www/htdocs/assignment/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/htdocs/assignment/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/htdocs/assignment/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/htdocs/assignment/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/htdocs/assignment/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/assignment/system/Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/htdocs/assignment/system/BaseModel.php(782): CodeIgniter\Model->doInsert()
+#6 /var/www/htdocs/assignment/system/Model.php(730): CodeIgniter\BaseModel->insert()
+#7 /var/www/htdocs/assignment/app/Controllers/Thread.php(205): CodeIgniter\Model->insert()
+#8 /var/www/htdocs/assignment/system/CodeIgniter.php(934): App\Controllers\Thread->like()
+#9 /var/www/htdocs/assignment/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#10 /var/www/htdocs/assignment/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#11 /var/www/htdocs/assignment/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-19 13:48:52 --> Cannot add or update a child row: a foreign key constraint fails (`edu_forum`.`Vote`, CONSTRAINT `thread_vote` FOREIGN KEY (`thread_id`) REFERENCES `Thread` (`thread_id`) ON DELETE CASCADE ON UPDATE CASCADE)
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(782): CodeIgniter\Model->doInsert()
+ 4 SYSTEMPATH/Model.php(730): CodeIgniter\BaseModel->insert()
+ 5 APPPATH/Controllers/Thread.php(205): CodeIgniter\Model->insert()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Thread->like()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-19 14:00:54 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`edu_forum`.`Vote`, CONSTRAINT `thread_vote` FOREIGN KEY (`thread_id`) REFERENCES `Thread` (`thread_id`) ON DELETE CASCADE ON UPDATE CASCADE) in /var/www/htdocs/assignment/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/htdocs/assignment/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/htdocs/assignment/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/htdocs/assignment/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/htdocs/assignment/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/assignment/system/Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/htdocs/assignment/system/BaseModel.php(782): CodeIgniter\Model->doInsert()
+#6 /var/www/htdocs/assignment/system/Model.php(730): CodeIgniter\BaseModel->insert()
+#7 /var/www/htdocs/assignment/app/Controllers/Thread.php(205): CodeIgniter\Model->insert()
+#8 /var/www/htdocs/assignment/system/CodeIgniter.php(934): App\Controllers\Thread->like()
+#9 /var/www/htdocs/assignment/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#10 /var/www/htdocs/assignment/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#11 /var/www/htdocs/assignment/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-19 14:00:54 --> Cannot add or update a child row: a foreign key constraint fails (`edu_forum`.`Vote`, CONSTRAINT `thread_vote` FOREIGN KEY (`thread_id`) REFERENCES `Thread` (`thread_id`) ON DELETE CASCADE ON UPDATE CASCADE)
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(782): CodeIgniter\Model->doInsert()
+ 4 SYSTEMPATH/Model.php(730): CodeIgniter\BaseModel->insert()
+ 5 APPPATH/Controllers/Thread.php(205): CodeIgniter\Model->insert()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Thread->like()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-19 14:01:35 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`edu_forum`.`Vote`, CONSTRAINT `thread_vote` FOREIGN KEY (`thread_id`) REFERENCES `Thread` (`thread_id`) ON DELETE CASCADE ON UPDATE CASCADE) in /var/www/htdocs/assignment/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/htdocs/assignment/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/htdocs/assignment/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/htdocs/assignment/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/htdocs/assignment/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/assignment/system/Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/htdocs/assignment/system/BaseModel.php(782): CodeIgniter\Model->doInsert()
+#6 /var/www/htdocs/assignment/system/Model.php(730): CodeIgniter\BaseModel->insert()
+#7 /var/www/htdocs/assignment/app/Controllers/Thread.php(205): CodeIgniter\Model->insert()
+#8 /var/www/htdocs/assignment/system/CodeIgniter.php(934): App\Controllers\Thread->like()
+#9 /var/www/htdocs/assignment/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#10 /var/www/htdocs/assignment/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#11 /var/www/htdocs/assignment/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-19 14:01:35 --> Cannot add or update a child row: a foreign key constraint fails (`edu_forum`.`Vote`, CONSTRAINT `thread_vote` FOREIGN KEY (`thread_id`) REFERENCES `Thread` (`thread_id`) ON DELETE CASCADE ON UPDATE CASCADE)
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(782): CodeIgniter\Model->doInsert()
+ 4 SYSTEMPATH/Model.php(730): CodeIgniter\BaseModel->insert()
+ 5 APPPATH/Controllers/Thread.php(205): CodeIgniter\Model->insert()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Thread->like()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-19 14:01:36 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`edu_forum`.`Vote`, CONSTRAINT `thread_vote` FOREIGN KEY (`thread_id`) REFERENCES `Thread` (`thread_id`) ON DELETE CASCADE ON UPDATE CASCADE) in /var/www/htdocs/assignment/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/htdocs/assignment/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/htdocs/assignment/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/htdocs/assignment/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/htdocs/assignment/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/assignment/system/Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/htdocs/assignment/system/BaseModel.php(782): CodeIgniter\Model->doInsert()
+#6 /var/www/htdocs/assignment/system/Model.php(730): CodeIgniter\BaseModel->insert()
+#7 /var/www/htdocs/assignment/app/Controllers/Thread.php(205): CodeIgniter\Model->insert()
+#8 /var/www/htdocs/assignment/system/CodeIgniter.php(934): App\Controllers\Thread->like()
+#9 /var/www/htdocs/assignment/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#10 /var/www/htdocs/assignment/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#11 /var/www/htdocs/assignment/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-19 14:01:36 --> Cannot add or update a child row: a foreign key constraint fails (`edu_forum`.`Vote`, CONSTRAINT `thread_vote` FOREIGN KEY (`thread_id`) REFERENCES `Thread` (`thread_id`) ON DELETE CASCADE ON UPDATE CASCADE)
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(782): CodeIgniter\Model->doInsert()
+ 4 SYSTEMPATH/Model.php(730): CodeIgniter\BaseModel->insert()
+ 5 APPPATH/Controllers/Thread.php(205): CodeIgniter\Model->insert()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Thread->like()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-19 14:09:24 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`edu_forum`.`Vote`, CONSTRAINT `thread_vote` FOREIGN KEY (`thread_id`) REFERENCES `Thread` (`thread_id`) ON DELETE CASCADE ON UPDATE CASCADE) in /var/www/htdocs/assignment/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/htdocs/assignment/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/htdocs/assignment/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/htdocs/assignment/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/htdocs/assignment/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/assignment/system/Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/htdocs/assignment/system/BaseModel.php(782): CodeIgniter\Model->doInsert()
+#6 /var/www/htdocs/assignment/system/Model.php(730): CodeIgniter\BaseModel->insert()
+#7 /var/www/htdocs/assignment/app/Controllers/Thread.php(205): CodeIgniter\Model->insert()
+#8 /var/www/htdocs/assignment/system/CodeIgniter.php(934): App\Controllers\Thread->like()
+#9 /var/www/htdocs/assignment/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#10 /var/www/htdocs/assignment/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#11 /var/www/htdocs/assignment/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-19 14:09:24 --> Cannot add or update a child row: a foreign key constraint fails (`edu_forum`.`Vote`, CONSTRAINT `thread_vote` FOREIGN KEY (`thread_id`) REFERENCES `Thread` (`thread_id`) ON DELETE CASCADE ON UPDATE CASCADE)
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(782): CodeIgniter\Model->doInsert()
+ 4 SYSTEMPATH/Model.php(730): CodeIgniter\BaseModel->insert()
+ 5 APPPATH/Controllers/Thread.php(205): CodeIgniter\Model->insert()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Thread->like()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-19 14:09:27 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`edu_forum`.`Vote`, CONSTRAINT `thread_vote` FOREIGN KEY (`thread_id`) REFERENCES `Thread` (`thread_id`) ON DELETE CASCADE ON UPDATE CASCADE) in /var/www/htdocs/assignment/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/htdocs/assignment/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/htdocs/assignment/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/htdocs/assignment/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/htdocs/assignment/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/assignment/system/Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/htdocs/assignment/system/BaseModel.php(782): CodeIgniter\Model->doInsert()
+#6 /var/www/htdocs/assignment/system/Model.php(730): CodeIgniter\BaseModel->insert()
+#7 /var/www/htdocs/assignment/app/Controllers/Thread.php(205): CodeIgniter\Model->insert()
+#8 /var/www/htdocs/assignment/system/CodeIgniter.php(934): App\Controllers\Thread->like()
+#9 /var/www/htdocs/assignment/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#10 /var/www/htdocs/assignment/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#11 /var/www/htdocs/assignment/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-19 14:09:27 --> Cannot add or update a child row: a foreign key constraint fails (`edu_forum`.`Vote`, CONSTRAINT `thread_vote` FOREIGN KEY (`thread_id`) REFERENCES `Thread` (`thread_id`) ON DELETE CASCADE ON UPDATE CASCADE)
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(782): CodeIgniter\Model->doInsert()
+ 4 SYSTEMPATH/Model.php(730): CodeIgniter\BaseModel->insert()
+ 5 APPPATH/Controllers/Thread.php(205): CodeIgniter\Model->insert()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Thread->like()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-19 14:19:47 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`edu_forum`.`Vote`, CONSTRAINT `thread_vote` FOREIGN KEY (`thread_id`) REFERENCES `Thread` (`thread_id`) ON DELETE CASCADE ON UPDATE CASCADE) in /var/www/htdocs/assignment/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/htdocs/assignment/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/htdocs/assignment/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/htdocs/assignment/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/htdocs/assignment/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/assignment/system/Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/htdocs/assignment/system/BaseModel.php(782): CodeIgniter\Model->doInsert()
+#6 /var/www/htdocs/assignment/system/Model.php(730): CodeIgniter\BaseModel->insert()
+#7 /var/www/htdocs/assignment/app/Controllers/Thread.php(205): CodeIgniter\Model->insert()
+#8 /var/www/htdocs/assignment/system/CodeIgniter.php(934): App\Controllers\Thread->like()
+#9 /var/www/htdocs/assignment/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#10 /var/www/htdocs/assignment/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#11 /var/www/htdocs/assignment/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-19 14:19:47 --> Cannot add or update a child row: a foreign key constraint fails (`edu_forum`.`Vote`, CONSTRAINT `thread_vote` FOREIGN KEY (`thread_id`) REFERENCES `Thread` (`thread_id`) ON DELETE CASCADE ON UPDATE CASCADE)
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(782): CodeIgniter\Model->doInsert()
+ 4 SYSTEMPATH/Model.php(730): CodeIgniter\BaseModel->insert()
+ 5 APPPATH/Controllers/Thread.php(205): CodeIgniter\Model->insert()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Thread->like()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 14:38:05 --> Undefined constant "App\Controllers\thread_id"
+in APPPATH/Controllers/Thread.php on line 210.
+ 1 APPPATH/Controllers/Thread.php(191): App\Controllers\Thread->removeLike()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Thread->like()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 14:38:29 --> Undefined constant "App\Controllers\thread_id"
+in APPPATH/Controllers/Thread.php on line 210.
+ 1 APPPATH/Controllers/Thread.php(191): App\Controllers\Thread->removeLike()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Thread->like()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 14:38:30 --> Undefined constant "App\Controllers\thread_id"
+in APPPATH/Controllers/Thread.php on line 210.
+ 1 APPPATH/Controllers/Thread.php(191): App\Controllers\Thread->removeLike()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Thread->like()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 14:39:23 --> Undefined constant "App\Controllers\thread_id"
+in APPPATH/Controllers/Thread.php on line 211.
+ 1 APPPATH/Controllers/Thread.php(191): App\Controllers\Thread->removeLike()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Thread->like()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 14:39:24 --> Undefined constant "App\Controllers\thread_id"
+in APPPATH/Controllers/Thread.php on line 211.
+ 1 APPPATH/Controllers/Thread.php(191): App\Controllers\Thread->removeLike()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Thread->like()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 15:13:14 --> Class "Mpdf\Mpdf" not found
+in APPPATH/Controllers/Profile.php on line 106.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->generateProfilePDF()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 15:13:40 --> Undefined property: App\Controllers\Profile::$load
+in APPPATH/Controllers/Profile.php on line 82.
+ 1 APPPATH/Controllers/Profile.php(82): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->imagetopdf()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 15:33:39 --> Undefined array key "user_id"
+in APPPATH/Controllers/Profile.php on line 62.
+ 1 APPPATH/Controllers/Profile.php(62): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->generateProfilePDF()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 15:34:00 --> Array to string conversion
+in APPPATH/Controllers/Profile.php on line 62.
+ 1 APPPATH/Controllers/Profile.php(62): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->generateProfilePDF()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 15:34:28 --> Array to string conversion
+in APPPATH/Controllers/Profile.php on line 62.
+ 1 APPPATH/Controllers/Profile.php(62): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->generateProfilePDF()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 15:35:39 --> Array to string conversion
+in APPPATH/Controllers/Profile.php on line 62.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Profile.php(62): implode()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->generateProfilePDF()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 15:36:55 --> Undefined array key "username"
+in APPPATH/Controllers/Profile.php on line 63.
+ 1 APPPATH/Controllers/Profile.php(63): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->generateProfilePDF()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 15:37:08 --> Undefined array key "email"
+in APPPATH/Controllers/Profile.php on line 64.
+ 1 APPPATH/Controllers/Profile.php(64): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->generateProfilePDF()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
