@@ -25,7 +25,9 @@ Edu Forum is an interactive educational platform designed to facilitate student 
 The main objective of the Edu Forum website is to provide students with a platform for interactive discussions and knowledge sharing. The key features aim to enable students to post questions, engage in discussions, rate content, and search for relevant information within their enrolled courses. Additionally, teachers have administrative functions to maintain the quality of content and manage student posts and comments.
 
 ## UI/UX Design
-The user interface of the Edu Forum website is designed to be intuitive and user-friendly. The index page serves as the login page with links to the forgot password and registration pages. Once logged in, users are presented with a dashboard displaying their enrolled courses. The header contains different buttons for students and teachers, such as "Join" and "Create," respectively.
+The user interface of the Edu Forum website is designed to be intuitive and user-friendly. However, it is important to note that the project heavily focuses on SERVER SIDE coding rather than interface development. That's why Bootstrap 5 is used to provide a responsive and consistent layout, but the primary emphasis is on robust server-side functionality.
+
+The index page serves as the login page with links to the forgot password and registration pages. Once logged in, users are presented with a dashboard displaying their enrolled courses. The header contains different buttons for students and teachers, such as "Join" and "Create," respectively.
 
 When accessing a course, the page displays the course title, a list of questions, and a sidebar with tags for filtering. A search box is available to search for questions using keywords. Teachers have additional editing capabilities to manage posts and comments.
 
@@ -47,3 +49,4 @@ To install and run the Edu Forum website locally, follow these steps:
 
 4. Start the local development server or configure a web server to serve the application.
 
+Feel free to explore the server-side coding, robust functionality, and responsive layout that the Edu Forum project offers. If you have any specific questions or need further assistance regarding the project, don't hesitate to ask.
