@@ -8,9 +8,7 @@ ENV TZ=Australia/Brisbane
 LABEL maintainer="JaeWon Yun jaewon.yun@uqconnect.edu.au"
 
 # Install necessary packages
-RUN apt-get update && apt-get install -y software-properties-common --no-install-recommends \
-    && add-apt-repository ppa:ondrej/php && apt-get update \
-    && apt-get install -y nginx apt-utils curl git build-essential libssl-dev zlib1g-dev libpng-dev libjpeg-dev libfreetype6-dev libicu-dev
+RUN apt-get update && apt-get install -y nginx apt-utils curl git build-essential libssl-dev zlib1g-dev libpng-dev libjpeg-dev libfreetype6-dev libicu-dev
 
 # Install PHP extensions
 RUN docker-php-ext-install intl mysqli pdo pdo_mysql zip mbstring \
