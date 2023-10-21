@@ -19,17 +19,15 @@ RUN apt-get update \
         && apt-get update \
         && docker-php-ext-install pdo_mysql
 
-# Install Composer
-RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
-
 WORKDIR /var/www/htdocs
 
-# Copy composer.json and composer.lock files to the WORKDIR
-COPY composer.json composer.lock ./
+# Copy composer.json, composer.lock and the composer installer to the WORKDIR
+COPY composer.json composer.lock installer ./
 
 # Install Composer
-RUN php installer -- --install-dir=/usr/local/bin --filename=composer
+RUN php installer --install-dir=/usr/local/bin --filename=composer
 
+# Install project dependencies
 RUN composer install --no-scripts --no-autoloader
 RUN composer dump-autoload --optimize && composer run-script post-install-cmd
 
