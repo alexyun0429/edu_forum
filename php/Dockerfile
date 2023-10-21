@@ -19,8 +19,16 @@ RUN apt-get update \
         && apt-get update \
         && docker-php-ext-install pdo_mysql
 
+# Install Composer
+RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
 
 WORKDIR /var/www/htdocs
+
+# Copy composer.json and composer.lock files to the WORKDIR
+COPY composer.json composer.lock ./
+
+# Install project dependencies
+RUN composer install
 
 RUN chmod -R 777 /var/www/htdocs
 
