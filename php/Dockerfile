@@ -27,8 +27,11 @@ WORKDIR /var/www/htdocs
 # Copy composer.json and composer.lock files to the WORKDIR
 COPY composer.json composer.lock ./
 
-# Install project dependencies
-RUN composer install
+# Install Composer
+RUN php installer -- --install-dir=/usr/local/bin --filename=composer
+
+RUN composer install --no-scripts --no-autoloader
+RUN composer dump-autoload --optimize && composer run-script post-install-cmd
 
 RUN chmod -R 777 /var/www/htdocs
 
