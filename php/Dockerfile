@@ -27,6 +27,7 @@ RUN apt-get update \
 # Copy composer.json and composer.lock files to the WORKDIR
 COPY installer.php ./
 COPY composer.json composer.lock ./
+WORKDIR /var/www/htdocs
 RUN chmod -R 777 /var/www/htdocs
 # Install Composer
 RUN php installer.php \
@@ -40,7 +41,7 @@ RUN composer dump-autoload \
         && composer require psr/log \
         && composer create-project codeigniter4/appstarter ./project
 
-WORKDIR /var/www/htdocs
+
 EXPOSE 9000
 
 CMD ["php-fpm"]
