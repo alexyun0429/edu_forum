@@ -8,13 +8,10 @@ ENV TZ=Australia/Brisbane
 LABEL maintainer="JaeWon Yun jaewon.yun@uqconnect.edu.au"
 
 COPY php.ini /etc/php/8.2/fpm/php.ini
-# Install necessary packages and php packages
-
-RUN apt-get update && apt-get install -y git
 
 RUN apt-get update \
-        && apt-get install -y libicu-dev libxml2-dev \
-        && docker-php-ext-install mysqli intl dom \
+        && apt-get install -y zip unzip git \
+        && docker-php-ext-install mysqli \
         && pecl install redis \
         && docker-php-ext-enable redis \
         && apt-get update && apt-get install -y libicu-dev \
@@ -23,12 +20,9 @@ RUN apt-get update \
         && apt-get update \
         && docker-php-ext-install pdo_mysql
 
-# Copy Composer installer and run it
-# COPY installer /tmp/installer.php
-# RUN php /tmp/installer.php --install-dir=/usr/local/bin --filename=composer
 
 WORKDIR /var/www/htdocs
-# Copy composer.json and composer.lock files to the WORKDIR
+
 COPY installer.php ./
 COPY composer.json composer.lock ./
 RUN chmod -R 777 /var/www/htdocs
@@ -43,8 +37,7 @@ RUN composer dump-autoload \
         && composer require codeigniter4/framework \
         && composer require psr/log \
         && composer create-project codeigniter4/appstarter ./project
-
+# && composer run-script post-install-cmd --optimize 
 
 EXPOSE 9000
-
 CMD ["php-fpm"]
