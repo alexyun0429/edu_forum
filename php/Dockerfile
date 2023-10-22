@@ -8,6 +8,7 @@ ENV TZ=Australia/Brisbane
 LABEL maintainer="JaeWon Yun jaewon.yun@uqconnect.edu.au"
 
 COPY php.ini /etc/php/8.2/fpm/php.ini
+COPY php.ini /etc/php/8.2/fpm/php.ini
 
 RUN apt-get update \
         && apt-get install -y zip unzip git \
@@ -20,7 +21,6 @@ RUN apt-get update \
         && apt-get update \
         && docker-php-ext-install pdo_mysql
 
-# COPY . /var/www/htdocs/project
 
 WORKDIR /var/www/htdocs
 
@@ -32,12 +32,13 @@ RUN php installer.php \
         && php -r "unlink('installer.php');" \
         && mv composer.phar /usr/local/bin/composer
 
-RUN composer update --no-scripts --no-autoloader
-RUN composer install --no-scripts --no-autoloader
+RUN composer update \
+        && composer install --no-scripts --no-autoloader
 RUN composer dump-autoload \
         && composer require codeigniter4/framework \
         && composer require psr/log \
         && composer create-project codeigniter4/appstarter ./project
+# && composer run-script post-install-cmd --optimize 
 
 EXPOSE 9000
 CMD ["php-fpm"]
