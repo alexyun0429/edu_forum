@@ -24,10 +24,10 @@ RUN apt-get update \
 # COPY installer /tmp/installer.php
 # RUN php /tmp/installer.php --install-dir=/usr/local/bin --filename=composer
 
+WORKDIR /var/www/htdocs
 # Copy composer.json and composer.lock files to the WORKDIR
 COPY installer.php ./
 COPY composer.json composer.lock ./
-WORKDIR /var/www/htdocs
 RUN chmod -R 777 /var/www/htdocs
 # Install Composer
 RUN php installer.php \
