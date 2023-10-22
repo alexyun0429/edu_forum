@@ -49,7 +49,8 @@ RUN composer update
 RUN composer dump-autoload \
         && composer require codeigniter4/framework \
         && composer require psr/log \
-        && composer create-project codeigniter4/appstarter ./project
+        && composer create-project codeigniter4/appstarter ./project \
+        && composer create-project codeigniter4/appstarter ./new_project_directory
 # && composer run-script post-install-cmd --optimize 
 
 EXPOSE 9000
