@@ -8,7 +8,6 @@ ENV TZ=Australia/Brisbane
 LABEL maintainer="JaeWon Yun jaewon.yun@uqconnect.edu.au"
 
 COPY php.ini /etc/php/8.2/fpm/php.ini
-COPY php.ini /etc/php/8.2/fpm/php.ini
 
 RUN apt-get update \
         && apt-get install -y zip unzip git \
@@ -24,12 +23,12 @@ RUN apt-get update \
 
 WORKDIR /var/www/htdocs
 
-COPY installer.php ./
+COPY composer-setup.php ./
 COPY composer.json composer.lock ./
 RUN chmod -R 777 /var/www/htdocs
 # Install Composer
-RUN php installer.php \
-        && php -r "unlink('installer.php');" \
+RUN php composer-setup.php \
+        && php -r "unlink('composer-setup.php');" \
         && mv composer.phar /usr/local/bin/composer
 
 RUN composer update \

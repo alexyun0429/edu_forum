@@ -35,7 +35,7 @@ function setupEnvironment()
 
     if (defined('PHP_WINDOWS_VERSION_MAJOR')) {
         if ($version = getenv('COMPOSERSETUP')) {
-            $installer = sprintf('Installer.exe/%s', $version);
+            $installer = sprintf('Composer-Setup.exe/%s', $version);
         }
     }
 
