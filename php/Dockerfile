@@ -22,6 +22,9 @@ RUN apt-get update \
 
 
 WORKDIR /var/www/htdocs
+COPY . /var/www/htdocs
+RUN composer update \
+        && composer install --no-scripts --no-autoloader
 
 COPY composer-setup.php ./
 COPY composer.json composer.lock ./
@@ -31,8 +34,8 @@ RUN php composer-setup.php \
         && php -r "unlink('composer-setup.php');" \
         && mv composer.phar /usr/local/bin/composer
 
-RUN composer update \
-        && composer install --no-scripts --no-autoloader
+# RUN composer update \
+#         && composer install --no-scripts --no-autoloader
 RUN composer dump-autoload \
         && composer require codeigniter4/framework \
         && composer require psr/log \
