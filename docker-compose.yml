@@ -2,7 +2,6 @@ version: "3"
 services:
   mysql:
     image: mariadb:latest
-    restart: always
     volumes:
       - ./sql:/docker-entrypoint-initdb.d
     environment:
@@ -22,8 +21,6 @@ services:
     build:
       context: ./php
       dockerfile: Dockerfile
-    #expose:
-    #  - "9000"
     volumes:
       - ./php:/var/www/htdocs
     depends_on:
@@ -58,4 +55,4 @@ services:
 
 networks:
   mynet:
-    driver: bridge
+    driver: overlay
