@@ -20,6 +20,8 @@ RUN apt-get update \
         && apt-get update \
         && docker-php-ext-install pdo_mysql
 
+# COPY . /var/www/htdocs/project
+
 WORKDIR /var/www/htdocs
 
 COPY installer.php ./
@@ -34,7 +36,8 @@ RUN composer update --no-scripts --no-autoloader
 RUN composer install --no-scripts --no-autoloader
 RUN composer dump-autoload \
         && composer require codeigniter4/framework \
-        && composer require psr/log 
+        && composer require psr/log \
+        && composer create-project codeigniter4/appstarter ./project
 
 EXPOSE 9000
 CMD ["php-fpm"]
