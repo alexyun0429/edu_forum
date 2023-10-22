@@ -24,7 +24,7 @@ RUN apt-get update \
 WORKDIR /var/www/htdocs
 COPY . /var/www/htdocs
 RUN composer update \
-        && composer install --no-scripts --no-autoloader
+        && composer install 
 
 COPY composer-setup.php ./
 COPY composer.json composer.lock ./
