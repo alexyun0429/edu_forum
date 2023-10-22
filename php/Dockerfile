@@ -25,12 +25,18 @@ WORKDIR /var/www/htdocs
 COPY . /var/www/htdocs
 # Install Composer
 COPY composer-setup.php ./
+
+# Install Composer
+COPY composer-setup.php ./
 RUN php composer-setup.php \
         && php -r "unlink('composer-setup.php');" \
         && mv composer.phar /usr/local/bin/composer
 
-# Then run composer install
-RUN composer install
+# Update Composer and then install dependencies
+RUN composer update && composer install
+
+...
+
 
 COPY composer-setup.php ./
 COPY composer.json composer.lock ./
