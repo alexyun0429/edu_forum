@@ -9,6 +9,9 @@ LABEL maintainer="JaeWon Yun jaewon.yun@uqconnect.edu.au"
 
 COPY php.ini /etc/php/8.2/fpm/php.ini
 # Install necessary packages and php packages
+
+RUN apt-get update && apt-get install -y git
+
 RUN apt-get update \
         && apt-get install -y libicu-dev libxml2-dev \
         && docker-php-ext-install mysqli intl dom \
