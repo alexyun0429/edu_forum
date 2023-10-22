@@ -30,6 +30,7 @@ RUN php installer.php \
         && php -r "unlink('installer.php');" \
         && mv composer.phar /usr/local/bin/composer
 
+RUN composer update --no-scripts --no-autoloader
 RUN composer install --no-scripts --no-autoloader
 RUN composer dump-autoload \
         && composer require codeigniter4/framework \
