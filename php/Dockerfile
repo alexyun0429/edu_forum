@@ -35,8 +35,6 @@ RUN php composer-setup.php \
 # Update Composer and then install dependencies
 RUN composer update && composer install
 
-...
-
 
 COPY composer-setup.php ./
 COPY composer.json composer.lock ./
