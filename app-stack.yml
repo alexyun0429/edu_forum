@@ -1,0 +1,28 @@
+version: "3"
+services:
+  myredis:
+    image: redis:latest
+    networks:
+      - mynet
+
+  php:
+    image: alexyun0429/edu_forum_php
+    volumes:
+      - ./php:/var/www/htdocs
+    networks:
+      - mynet
+
+  mynginx:
+    image: alexyun0429/edu_forum_nginx
+    volumes:
+      - ./php:/var/www/htdocs
+    ports:
+      - "8080:80"
+    depends_on:
+      - php
+    networks:
+      - mynet
+
+networks:
+  mynet:
+    external: true
