@@ -23,15 +23,22 @@ RUN apt-get update \
 
 WORKDIR /var/www/htdocs
 COPY . /var/www/htdocs
-RUN composer install 
+# Install Composer
+COPY composer-setup.php ./
+RUN php composer-setup.php \
+        && php -r "unlink('composer-setup.php');" \
+        && mv composer.phar /usr/local/bin/composer
+
+# Then run composer install
+RUN composer install
 
 COPY composer-setup.php ./
 COPY composer.json composer.lock ./
 RUN chmod -R 777 /var/www/htdocs
 # Install Composer
-RUN php composer-setup.php \
-        && php -r "unlink('composer-setup.php');" \
-        && mv composer.phar /usr/local/bin/composer
+# RUN php composer-setup.php \
+#         && php -r "unlink('composer-setup.php');" \
+#         && mv composer.phar /usr/local/bin/composer
 
 RUN composer update 
 #         && composer install --no-scripts --no-autoloader
