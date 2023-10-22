@@ -21,15 +21,15 @@ RUN apt-get update \
         && docker-php-ext-install pdo_mysql
 
 # Copy Composer installer and run it
-# COPY installer /tmp/composer-setup.php
-# RUN php /tmp/composer-setup.php --install-dir=/usr/local/bin --filename=composer
+# COPY installer /tmp/installer.php
+# RUN php /tmp/installer.php --install-dir=/usr/local/bin --filename=composer
 
 # Copy composer.json and composer.lock files to the WORKDIR
-COPY composer-setup.php ./
+COPY installer.php ./
 COPY composer.json composer.lock ./
 RUN chmod -R 777 /var/www/htdocs
 # Install Composer
-RUN php composer-setup.php \
+RUN php installer.php \
         && php -r "unlink('installer.php');" \
         && mv composer.phar /usr/local/bin/composer
 
