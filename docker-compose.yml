@@ -1,4 +1,5 @@
 version: "3"
+
 services:
   mysql:
     image: mariadb:latest
@@ -8,10 +9,10 @@ services:
     volumes:
       - ./sql:/docker-entrypoint-initdb.d
     environment:
-      MYSQL_ROOT_PASSWORD: e9289ebcad2ae49d6e4d127b
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
       MYSQL_DATABASE: edu_forum
       MYSQL_USER: php
-      MYSQL_PASSWORD: php
+      MYSQL_PASSWORD: ${MYSQL_USER_PASSWORD}
     networks:
       - mynet
 
@@ -45,7 +46,9 @@ services:
     environment:
       PMA_HOST: mysql
       PMA_USER: php
-      PMA_PASSWORD: php
+      PMA_PASSWORD: ${MYSQL_USER_PASSWORD}
+    depends_on:
+      - mysql
     networks:
       - mynet
 
