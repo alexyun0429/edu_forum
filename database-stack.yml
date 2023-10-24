@@ -27,5 +27,5 @@ services:
       - edu_forum_mynet
 
 networks:
-  mynet:
+  edu_forum_mynet:
     external: true
