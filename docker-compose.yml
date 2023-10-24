@@ -5,7 +5,7 @@ services:
     image: mariadb:latest
     deploy:
       restart_policy:
-        condition: any
+        condition: always
     volumes:
       - ./sql:/docker-entrypoint-initdb.d
     environment:
