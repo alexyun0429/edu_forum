@@ -10,7 +10,7 @@ services:
     volumes:
       - ./php:/var/www/htdocs
     deploy:
-      replicas: 2
+      replicas: 8
     networks:
       - edu_forum_mynet
 
@@ -23,7 +23,7 @@ services:
     depends_on:
       - php
     deploy:
-      replicas: 2
+      replicas: 8
     networks:
       - edu_forum_mynet
 
