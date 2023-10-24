@@ -9,6 +9,8 @@ services:
     image: alexyun0429/edu_forum_php
     volumes:
       - ./php:/var/www/htdocs
+    deploy:
+      replicas: 2
     networks:
       - edu_forum_mynet
 
@@ -20,6 +22,8 @@ services:
       - "8080:80"
     depends_on:
       - php
+    deploy:
+      replicas: 2
     networks:
       - edu_forum_mynet
 
