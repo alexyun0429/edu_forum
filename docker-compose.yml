@@ -14,19 +14,19 @@ services:
       MYSQL_USER: php
       MYSQL_PASSWORD: ${MYSQL_USER_PASSWORD}
     networks:
-      - mynet
+      - edu_forum_mynet
 
   myredis:
     image: redis:latest
     networks:
-      - mynet
+      - edu_forum_mynet
 
   php:
     image: alexyun0429/edu_forum_php
     volumes:
       - ./php:/var/www/htdocs
     networks:
-      - mynet
+      - edu_forum_mynet
 
   mynginx:
     image: alexyun0429/edu_forum_nginx
@@ -37,7 +37,7 @@ services:
     depends_on:
       - php
     networks:
-      - mynet
+      - edu_forum_mynet
 
   phpMyAdmin:
     image: phpmyadmin/phpmyadmin
@@ -50,7 +50,7 @@ services:
     depends_on:
       - mysql
     networks:
-      - mynet
+      - edu_forum_mynet
 
 networks:
   mynet:

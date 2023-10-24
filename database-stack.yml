@@ -13,7 +13,7 @@ services:
       MYSQL_USER: php
       MYSQL_PASSWORD: ${MYSQL_USER_PASSWORD}
     networks:
-      - mynet
+      - edu_forum_mynet
 
   phpMyAdmin:
     image: phpmyadmin/phpmyadmin
@@ -24,7 +24,7 @@ services:
       PMA_USER: php
       PMA_PASSWORD: php
     networks:
-      - mynet
+      - edu_forum_mynet
 
 networks:
   mynet:

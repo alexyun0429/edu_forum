@@ -3,14 +3,14 @@ services:
   myredis:
     image: redis:latest
     networks:
-      - mynet
+      - edu_forum_mynet
 
   php:
     image: alexyun0429/edu_forum_php
     volumes:
       - ./php:/var/www/htdocs
     networks:
-      - mynet
+      - edu_forum_mynet
 
   mynginx:
     image: alexyun0429/edu_forum_nginx
@@ -21,7 +21,7 @@ services:
     depends_on:
       - php
     networks:
-      - mynet
+      - edu_forum_mynet
 
 networks:
   mynet:
