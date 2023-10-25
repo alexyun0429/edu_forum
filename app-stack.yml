@@ -6,7 +6,7 @@ services:
       - edu_forum_mynet
 
   php:
-    image: alexyun0429/edu_forum_php
+    image: alexyun0429/edu_forum_php:1.0.0
     volumes:
       - ./php:/var/www/htdocs
     deploy:
@@ -15,7 +15,7 @@ services:
       - edu_forum_mynet
 
   mynginx:
-    image: alexyun0429/edu_forum_nginx
+    image: alexyun0429/edu_forum_nginx:1.0.0
     volumes:
       - ./php:/var/www/htdocs
     ports:
