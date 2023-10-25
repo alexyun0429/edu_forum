@@ -2,6 +2,8 @@ version: "3"
 services:
   myredis:
     image: redis:latest
+    deploy:
+      replicas: 3
     networks:
       - edu_forum_mynet
 
