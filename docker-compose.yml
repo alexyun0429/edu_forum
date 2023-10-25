@@ -18,6 +18,8 @@ services:
 
   myredis:
     image: redis:latest
+    deploy:
+      replicas: 4
     networks:
       - edu_forum_mynet
 
